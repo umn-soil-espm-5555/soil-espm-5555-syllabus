@@ -1,0 +1,95 @@
+# Assignments, Points, and Grading {#sec-assignments}
+
+## Assignments and Points (465 points)[^assignments-points-grades-1]
+
+[^assignments-points-grades-1]: see makeup policies
+
+**Field Trip Reports (45 points, 10% of your grade)**
+
+You will be required to write a brief report for three of the field trips.  More specific details will be given before each field trip.  You will be working in groups on the field trips and each group will turn in a single report.  It should be well-written, clear and concise and follow standard format for soil profile descriptions. (3 reports x 15 points = 45 points).
+
+**Weekly Lecture Quizzes (60 points, 13% of your grade)**
+
+There will be short quizzes in lecture each week. (12 quizzes x 5 points = 60 points).
+
+**Assignment 1: Hydric Soils Exercise (15 points, 3% of your grade)**
+
+You will be given a set of soil profile descriptions and will determine if the soils are hydric or non-hydric and why.  You will turn in individual reports online, but may work together if you like. (1 assignment x 10 points = 15 points).
+
+**Assignment 2: Soil Hydrology Exercise (15 points, 3% of your grade)**
+
+You will be asked to interpret the type of hydrology for specified wetlands and interpret hydrologic monitoring date from piezometers and tensiometers. **Independent work.** (1 assignment x 15 points = 15 points).
+
+**Assignment 3: Web Soil Survey Exercise (15 points, 3% of your grade)**
+
+You will select an area of your choosing that contains significant hydric soils and will describe the nature of the wetlands and hydric soil conditions on site using Web Soil Survey (Digital Soil Survey). **Independent work and turn in online.** (1 assignment x 15 points = 15 points).
+
+**Assignment 4: Redox Potential and Feature Laboratory (15 points, 3% of your grade)**
+
+We will set up an experiment to monitor the formation of soil redoximorphic features and you will be provided data on changes in redox potential over several weeks.  You may work in groups but turn in an **individual report online.** (1 assignment x 15 points = 15 points).
+
+**Group Hydric Soil Delineation Project (150 points, 32% of your grade)**
+
+Your group (3-4 students) will be assigned a parcel of Rice Creek North Regional Trail Corridor land located to the north of the Twin Cities Army Ammunition Plant in Shoreview.  Your task will be to delineate all areas of hydric soils within your parcel of approximately 40 acres.  Your group will flag the boundary in some sections (that I will field check); prepare a map of hydric soils; descriptions of upland, transitional, and hydric soils; and compile a comprehensive report for the site.  Final projects will be due on **Monday, December 8**.  We will provide aerial photographs and field equipment for this project and be available on certain dates to answer questions in the field.  Your group will compile a single report including background information, soil profile data, landscape descriptions, general vegetation, presumed hydrology, and a map of the hydric soil boundary for your assigned parcel of land.  You will use geographic information systems (GIS) technology to assist in the preparation of your final project and you will submit your project in an electronic pdf file.  Joel Nelson will provide technical assistance, software, and a computer lab for this portion of the project, but each group should have someone who has had a GIS course.  More details for the report will be provided in the laboratory session. (1 assignment x 15 points = 15 points).
+
+**Midterm Exams (100 points, 22% of your grade)**
+
+Midterm exams will be timed (75 minutes) and given in-person in Room 375 Borlaug Hall.. If you have any questions regarding how your exam was graded, please make an appointment to see me or write down your question and return it to me with your original exam within one week after the exams are returned.  Final course grades will be based on +/- system and adhere to the University Uniform Grading Standards. (2 midterm exams x 50 points = 100 points).
+
+**Final Comprehensive Exam (50 points, 11% of your grade)**
+
+The final exam will be comprehensive. (1 final exam x 50 points = 50 points).
+
+## Grading
+
+### Evaluation
+
+Final course grades use the +/- system of grading. Course grades will be assigned using the following scale, which is based on the UMN [Grading and Transcripts Policy](https://policy.umn.edu/education/gradingtranscripts):
+
+| **Letter Grade** | **Percent** |
+|------------------|-------------|
+| A                | \> 93       |
+| A-               | 90 to \< 93 |
+| B+               | 87 to \< 90 |
+| B                | 83 to \< 87 |
+| B-               | 80 to \< 83 |
+| C+               | 77 to \<80  |
+| C                | 73 to \< 77 |
+| C-               | 70 to \< 73 |
+| D+               | 67 to \< 70 |
+| D                | 60 to \< 67 |
+| F                | \< 60       |
+
+::: callout-note
+A grade of C- is required to pass this class if you elected to take this course under the Pass/Fail grading system.
+:::
+
+### Grade Assignments
+
+Grades will be assigned by earned point values as described on this page. No curve will be applied. **I do not oblige requests for grade "bump-ups" for extra credit at the end off the semester as these requests are not fair to your fellow students and against University policy. However, I do calculate everybody's final grade with a 0.5% grace. So, in other words, if you are within 0.5% of the next grade category you will receive the higher grade. Be proud of the grade you earned!**
+
+### Grading Challenges
+
+Any challenges to graded assignments you wish to be considered should be emailed to the instructor within **one week** of the posting date of the graded item.
+
+### Student Workload Statement
+
+This course conforms to the UMN [expected time per course credit policy](https://policy.umn.edu/education/timepercredit#:~:text=Student%20workload%20expectations%20per%20undergraduate%20credit.&text=One%20credit%20equals%2045%20hours,45%20hours%20of%20academic%20work).) Per that policy:
+
+-   For all academic sessions, courses, and modalities, hours of instructional time for a course must equal at least the number of credits for the course times 15 weeks in an academic term. 3 credits x 1 hour in class per credit (average) x 15 weeks = 45 hours of in-class instructional time.
+
+-   One credit equals 3 hours of work per week (both in and out of class). So, a 3 credit class equals 3 credits x 3 hours/credit = 9 hours per week. 3 credits x 3 hours per week x 15 weeks = 135 hours total
+
+Here is how the course conforms:
+
+| **Activity**     | **Number** | **Hours**         |
+|------------------|------------|-------------------|
+| Lectures\*       | 29         | 29 x 1 = 29 hours |
+| Assignments\*    | 4         | 4 x 6 = 24 hours |
+| Lab/Field Sessions\*           | 7         | 7 x 3 = 21 hours |
+| Field Trip Reports\*           | 3         | 3 x 3 = 9 hours |
+| Hydric Soil Delin. Proj.  | 1          | 1 x 29 = 29 hours   |
+| Midterm Exams | 3         | 3 x 5 = 15 hours |
+| Final Exam           | 1          | 1 x 8 = 8 hours |
+|                  | IN CLASS\* | 45 hours          |
+|                  | TOTAL\*    | 135 hours         |

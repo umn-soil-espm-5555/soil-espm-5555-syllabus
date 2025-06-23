@@ -1,0 +1,24 @@
+# Introduction
+
+Whether you know it or not, at some point in your life you have studied soil. Many of you studied soils as children; digging holes, hunting for nightcrawlers, making sandcastles, or painting faces with mud. Others of you grew up working on farms or planting gardens. Whatever your background, you come into this class already knowing at least a few things about what soil looks like, feels like and smells like.
+
+Many people have only had the chance to interact with the top six inches of soil and think all soil looks the same. In reality, soils are highly diverse and once you know a little bit about soils and their diversity, it is difficult to find a "boring" place on earth ever again. In this class, we approach soil as a natural system worthy of study in its own right. Because complex biological, chemical and physical processes affect the way soils form and the way that they are managed, we will use first principles from biology, chemistry and physics to understand them.
+
+Francis Hole, a famous soil scientist, was well known for saying that all humans are TNS, or "Temporarily Not Soil". The atomic building blocks for most of our body mass came from or were supported by soil through the plants or animals that we eat, and when we die those building blocks will return to the soil. So, in a very real sense, we are all made up of soil and our lives, communities, and cultures depend on our understanding of it.
+
+## Learning Outcomes
+
+-   Understand and appreciate local, regional, and global soil diversity.
+-   Understand and apply fundamental principles in soil science.
+-   Communicate fundamental principles in soil science to others.
+-   Most people know very little about the amazing world of soils.
+-   Obtain, interpret, and utilize information from soil surveys.
+-   Understand the influence of management on soil properties.
+
+## Lecture, Laboratory, and Learning Assessment Logistics
+
+*Lectures:* Most weeks, lectures will meet in-person on Monday and Wednesdays only. Most Friday lectures will be on Zoom with the exception of Friday, January 24th.
+
+*Laboratory:* Plan on spending 1-2 hrs each week in lab. The lab has open hours (see @sec-labhours) and is self-paced so you can return as often as needed to complete the lab exercises (Laboratory TA's will be in the lab during all open hours to help you). Make sure you sign in and out and complete the pre-lab checklist using the posted QR code at the TA desk.
+
+*Assessment of Learning:* There are no exams in this class. In place of exams, we will be assessing your learning with weekly quizzes based on lecture material and a Soil Properties and Land Use Report (SPLUR) that will be completed in 4 parts, one part at the end of each unit. More details in @sec-assignments.

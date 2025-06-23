@@ -1,0 +1,39 @@
+project:
+  type: book
+  # change output-dir to "docs" to publish to gh pages
+  output-dir: docs
+
+book:
+  title: "Wetland Soils (SOIL/ESPM 5555) Syllabus - Fall 2025"
+  author: "Nic Jelinski"
+  date: "23JUN2025"
+  cover-image: "soil-5555-05.png"
+  number: "0.2"
+  #navbar: 
+    #right: 
+      #- icon: cc-circle
+      #- href: https://creativecommons.org/licenses/by/4.0/
+      #- aria-label: Creative Commons
+  
+  chapters:
+    - index.qmd
+    # - intro.qmd
+    - course-resources.qmd
+    - assignments-points-grades.qmd
+    # - poll-everywhere.qmd
+    # - makeup-policies.qmd
+    - fine-print.qmd
+    - class-schedule.qmd
+    # - further-opportunities.qmd
+    # - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
