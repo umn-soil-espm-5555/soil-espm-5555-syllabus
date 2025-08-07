@@ -1,0 +1,81 @@
+# AI Policy
+
+::: callout-important
+## Key Summary - Most of the below text and policies can be summed up with the following points:
+
+-   I will strongly encourage you to use any and all AI Tools at your disposal in this course. I will also encourage you to read, write, and produce on your own. Used appropriately, AI tools can be very effective learning companions.
+-   AI tools are not definitive or authoritative. They can be biased and make significant errors.
+-   I highly encourage you to use AI tools in this course and I will demonstrate my use of them. However, the use of AI tools requires full transparency to conform with standards of academic integrity. When in doubt, overdisclose - I will show you examples of how to do this. 
+-   All classes differ in their AI policy. YOU are responsible for knowing and understanding the AI policies for your classes. Just because a course doesn't have an AI policy does not mean that the instructor approves/allows the use of AI. When in doubt, ask!
+-   AI tools should be used to enhance and elevate your work, not replace genuine effort. Authentic human effort is more important than ever, not less important. 
+-   AI tools have significantly accelerated the pace of knowledge work and technological change over the past 3 years, revolutionizing coding, data analysis and writing. Although I encourage full use of AI tools in this course, this also means I will ask you to "elevate" your thinking and challenge you in new and different ways. I expect you to go beyond what AI can produce, because that is now the new baseline.
+:::
+
+## Definition and Examples of Generative AI: 
+
+Generative AI refers to computer systems and programs that can generate new content such as text, images, audio, video, and computer code. Examples include language models like ChatGPT, GPT-3, Claude, and Bing Chat for text; DALL-E, Midjourney, and Stable Diffusion for images; and GitHub Copilot for code. These tools create new outputs based on patterns learned from analyzing vast datasets.
+
+## Caution Regarding Accuracy and Bias: 
+
+While innovative and extremely useful, generative AI has significant limitations. Its outputs may contain false information, "hallucinations," factual inaccuracies, logical fallacies, and biases perpetuated from flawed or skewed training data. Students must rigorously verify quality and corroborate facts. Do not trust or cite generative AI without confirmation, as you remain accountable for submitted content.
+
+## Appropriate Academic Uses: 
+
+When used responsibly, generative AI can enhance learning and research. Permitted uses include:
+- Brainstorming ideas and outlining arguments 
+- Checking grammar, style, spelling, and formatting
+- Translating texts between languages
+- Summarizing research materials 
+- Visualizing concepts, data, and ideas
+- Providing writing feedback and suggestions for improvement  
+- Finding relevant sources and references
+- Gaining exposure to diverse perspectives
+- Experimenting with new technologies for "AI literacy"
+
+## Inappropriate Academic Uses: 
+
+However, generative AI cannot replace a student's own mental effort and work. Prohibited uses include:
+- Having AI write full drafts or final versions of assignments
+- Using AI output without modification, proper attribution, or fact-checking
+- Failing to acknowledge AI assistance and specific prompts used
+- Violating course creativity and critical thinking skill expectations  
+- Enabling plagiarism or misrepresentation of student capabilities
+- Harming originality and independent analysis abilities  
+
+## Transparency Regarding AI Use: 
+
+Students should openly share when, how, and to what extent generative AI assisted in producing submissions. Append a paragraph detailing the AI tool, prompt(s) inputted, and how output was integrated or modified. Omitting acknowledgement enables academic dishonesty. Instructors may require discussing AI use in oral presentations.
+
+## Maintaining Academic Integrity: 
+
+While technology evolves, academic honesty standards remain constant. Presenting AI-generated or AI-enhanced content as fully original student work is prohibited, just as copying from human sources without attribution constitutes plagiarism. Overdependence on generative AI substituting for student skills and efforts violates academic integrity. Students retain accountability for submitted work quality, accuracy, and proper citations.
+
+## Upholding Ethical Obligations: 
+
+All university community members must demonstrate ethical behavior, including when employing new technologies like AI. Generative models currently lack robust reliability, explainability, and oversight safeguards. Therefore, students have added ethical duties surrounding responsible and conscientious AI adoption to consider potential harms from false information, biases, privacy matters, access barriers and more based on AI system design choices, data sources, and application contexts.
+
+## AI Usage Requires Diligence: 
+
+Given AI deficiencies students must vigilantly:
+- Specify prompt engineering details 
+- Enable safety and ethics settings  
+- Mitigate hallucinated content risks
+- Judge output quality and coherence   
+- Verify accuracy via multiple reliable sources
+- Rectify biases, mistakes, or misinformation  
+
+## University Policies Remain Applicable: 
+
+Existing institutional rules and codes of conduct encompassing ethics and academic honesty fully apply for classes permitting or encouraging generative AI usage. Policy violations prompt reporting procedures and potential penalties. Responsible AI integration upholds, supports and enhances, rather than diminishes established standards.
+
+## Differences Among Courses: 
+
+Guidelines and permissions surrounding leveraging generative AI differ substantially across university departments, classes, assignments, and instructors. Policies remain highly customized for each unique educational context. Students must proactively review and follow the exact specifications applicable for each course regarding if, when, how, why and to what degree generative AI may assist their work to avoid misconduct. Requirements can vary from AI bans to mandates strategically harnessing AI. Close policy adherence ensures academic success and integrity.  
+
+## Tradeoffs of AI Assistance: 
+
+Generative AI carries both opportunities and risks within academic environments. Potential benefits include enhanced creativity, productivity, accessibility, and multimodal learning. However, detriments may also ensue surrounding originality, effort, skill-building, critical thinking, ethics and misconduct. Instructors aim to maximize upsides while mitigating downsides of AI through tailored course policies. Students share in this responsibility.  
+
+## Policy Evolution Over Time: 
+
+Perspectives and best practices surrounding AI in education continue rapidly coalescing. Generative models themselves also keep significantly advancing. Therefore, institutional and course policies remain dynamic works-in-progress, subject to ongoing revisions as contextual understanding improves. Maintaining flexibility helps classrooms collectively harness AI‚Äôs immense potential as this technological age unfolds.

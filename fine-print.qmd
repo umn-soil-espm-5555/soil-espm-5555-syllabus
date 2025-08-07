@@ -12,7 +12,7 @@
 
 ## Attendance Policy
 
-Legitimate discussion absences must be arranged in advance in order to receive full points for make-up work. Make-up work policies for unexcused absences are described in detail in @sec-unexcusedabsences. I am also more than willing to work with you for legitimate excuses as described in @sec-absences.
+Legitimate absences must be arranged in advance in order to receive full points for make-up work. Make-up work policies for unexcused absences are described in detail in @sec-unexcusedabsences. I am also more than willing to work with you for legitimate excuses as described in @sec-absences.
 
 ## Student Conduct Code {#sec-conductcode}
 

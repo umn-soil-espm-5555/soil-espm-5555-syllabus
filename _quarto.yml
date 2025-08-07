@@ -6,9 +6,9 @@ project:
 book:
   title: "Wetland Soils (SOIL/ESPM 5555) Syllabus - Fall 2025"
   author: "Nic Jelinski"
-  date: "23JUN2025"
+  date: "07AUG2025"
   cover-image: "soil-5555-05.png"
-  number: "0.2"
+  number: "1.0"
   #navbar: 
     #right: 
       #- icon: cc-circle
@@ -17,14 +17,16 @@ book:
   
   chapters:
     - index.qmd
-    # - intro.qmd
+    - intro.qmd
     - course-resources.qmd
+    - field-sessions.qmd
     - assignments-points-grades.qmd
     # - poll-everywhere.qmd
-    # - makeup-policies.qmd
+    - makeup-policies.qmd
     - fine-print.qmd
+    - ai-policy.qmd
     - class-schedule.qmd
-    # - further-opportunities.qmd
+    - further-opportunities.qmd
     # - references.qmd
 
 bibliography: references.bib

@@ -4,9 +4,9 @@
 library(knitr)
 library(dplyr)
 library(kableExtra)
-class.schedule = read.csv("class-schedule-revised-23JUN2025.csv")
+class.schedule = read.csv("class-schedule-updated-07AUG2025.csv")
 class.schedule = select(class.schedule, -1)
-colnames(class.schedule) = c("Day", "Date", "Topic Focus", "What's Due?", "Suggested Readings - Brady and Weil 4th ed", "Lab Unit")
+colnames(class.schedule) = c("Day", "Date", "Topic Focus", "What's Due?", "Location", "Suggested Readings - Vepraskas & Craft 2016 (2nd ed)")
 
 kbl(class.schedule, format = "html") %>%
 kable_styling("bordered", full_width = F, fixed_thead = T, html_font = "arial") %>%
