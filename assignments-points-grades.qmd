@@ -8,9 +8,9 @@
 
 You will be required to write a brief report for three of the four field sessions.  More specific details will be given before each field session.  You will be working in groups on the field sessions and each group will turn in a single report.  It should be well-written, clear and concise and follow standard format for soil profile descriptions. (3 reports x 15 points = 45 points).
 
-**Weekly Lecture Quizzes (60 points, 13% of your grade)**
+**Weekly Reading Annotations, Wiki Audit Trail, and Lecture Quizzes (60 points, 13% of your grade)**
 
-There will be short, 5 question quizzes in lecture each week. These will typically be given on Wednesday, but can be taken the following Monday for credit in the case of an absence. These are learning assessments meant to understand how well concepts are being absorbed and understood in the class. These will be graded for completion, not accuracy (12 quizzes x 5 points = 60 points).
+Each week, you will be asked to conduct There will be short, 5 question quizzes in lecture each week. These will typically be given on Wednesday, but can be taken the following Monday for credit in the case of an absence. These are learning assessments meant to understand how well concepts are being absorbed and understood in the class. These will be graded for completion, not accuracy (12 quizzes x 5 points = 60 points).
 
 **Assignment 1: Biochemistry Exercise (15 points, 3% of your grade)**
 
@@ -26,11 +26,11 @@ You will be given a set of soil profile descriptions and will determine if the s
 
 **Assignment 4: Soil Hydrology Exercise (15 points, 3% of your grade)**
 
-You will be asked to interpret the type of hydrology for specified wetlands and interpret hydrologic monitoring date from piezometers and tensiometers. **Independent work.** (1 assignment x 15 points = 15 points).
+You will be asked to interpret the type of hydrology for specified wetlands and interpret hydrologic monitoring data from piezometers and tensiometers. **Independent work.** (1 assignment x 15 points = 15 points).
 
 **Assignment 5: Wetland Assessment Exercise (15 points, 3% of your grade)**
 
-You will select an area of your choosing that contains significant hydric soils and will describe the nature of the wetlands and hydric soil conditions on site using publicly available digital resources such as Digital Elevation Models (and derivatives), the National Wetland Inventory, and . **Independent work and turn in online.** (1 assignment x 15 points = 15 points).
+You will be provided with an area that contains significant hydric soils and will describe the nature of the wetlands and hydric soil conditions on site using publicly available digital resources such as Digital Elevation Models (and derivatives), the National Wetland Inventory, and . **Independent work and turn in online.** (1 assignment x 15 points = 15 points).
 
 **Assignment 6: Wetland Case Study (15 points, 3% of your grade)**
 

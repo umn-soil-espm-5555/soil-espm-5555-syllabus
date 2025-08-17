@@ -3,9 +3,9 @@ title: "Writing in the Age of AI"
 description: "Expectations for drafting, revising, and documenting AI use in your writing."
 ---
 
-## Writing as thinking
+## Writing as thinking and learning
 
-Good writing **clarifies thought**. In this course, writing is not a last-minute wrapper; it’s part of the analysis. Expect multiple drafts and targeted revisions.
+Good writing **clarifies thought**. Writing is difficult because it forces us to confront our own thoughts, rationale, and reasoning. This is just one reason why writing is learning ([Zinsser, 1993](https://www.amazon.com/Writing-Learn-William-Zinsser/dp/0062720406),[Yan, 2020](https://eugeneyan.com/writing/reading-note-taking-writing/), [Ahrens, 2022](https://www.amazon.com/How-Take-Smart-Notes-Technique/dp/3982438802/ref=pd_lpo_d_sccl_2/145-4544999-0238419?pd_rd_w=eF10d&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=FAD6C8DH6E4B0VVSGD1D&pd_rd_wg=ZARKE&pd_rd_r=5596127d-8f67-447e-9ac8-db82ff46caba&pd_rd_i=3982438802&psc=1)). Good writing is a feedback loop of multiple processes - reading, drafting, reflecting, reading, drafting, revising, revising, revising, revising, reflecting, writing, etc. In this course, writing is not a last-minute wrapper; it will be an integrated part of what we do, how we integrate, and how we think. Some of the writing may be AI assisted - and some of that will be your own (in which I will ask you to turn in an audit trail of reading notes and comments on our class [textbook wiki](https://umn-soil-5555-wiki.org)).
 
 ## What AI changes—and what it doesn’t
 
@@ -32,7 +32,7 @@ AI Use Log
 ## A pragmatic workflow
 
 1. **Define the deliverable** (audience, purpose, constraints).  
-2. **Outline**: produce a simple structure (thesis → sections → evidence).  
+2. **Outline yourself**: produce a simple structure (thesis → sections → evidence).  
 3. **Draft 0 with AI** (optional): ask for a **skeletal** outline or a list of counterarguments.  
 4. **Write Draft 1 yourself**: fill sections using your results, figures, and citations.  
 5. **Targeted AI passes**:  
