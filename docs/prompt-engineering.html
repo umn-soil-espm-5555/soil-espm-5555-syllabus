@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Simple, reliable patterns for getting useful help from LLMs in this course.">
 
-<title>Wetland Soils (SOIL/ESPM 5555) Syllabus - Fall 2025 - 5&nbsp; Absences and Makeup Policies</title>
+<title>Wetland Soils (SOIL/ESPM 5555) Syllabus - Fall 2025 - Appendix B — Prompt Engineering (Student Guide)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./fine-print.html" rel="next">
-<link href="./assignments-points-grades.html" rel="prev">
+<link href="./philosophy.html" rel="next">
+<link href="./tools.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./makeup-policies.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Absences and Makeup Policies</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./tools.html">Appendices</a></li><li class="breadcrumb-item"><a href="./prompt-engineering.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Prompt Engineering (Student Guide)</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -138,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./makeup-policies.html" class="sidebar-item-text sidebar-link active">
+  <a href="./makeup-policies.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Absences and Makeup Policies</span></span></a>
   </div>
 </li>
@@ -183,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./prompt-engineering.html" class="sidebar-item-text sidebar-link">
+  <a href="./prompt-engineering.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Prompt Engineering (Student Guide)</span></span></a>
   </div>
 </li>
@@ -217,17 +218,30 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-absences" id="toc-sec-absences" class="nav-link active" data-scroll-target="#sec-absences"><span class="header-section-number">5.1</span> Excused Absences</a></li>
-  <li><a href="#sec-unexcusedabsences" id="toc-sec-unexcusedabsences" class="nav-link" data-scroll-target="#sec-unexcusedabsences"><span class="header-section-number">5.2</span> Makeup Policies for Unexcused Absences</a></li>
+  <li><a href="#foundations-use-these-every-time" id="toc-foundations-use-these-every-time" class="nav-link active" data-scroll-target="#foundations-use-these-every-time"><span class="header-section-number">B.1</span> Foundations (use these every time)</a></li>
+  <li><a href="#agentic-toggles-when-needed" id="toc-agentic-toggles-when-needed" class="nav-link" data-scroll-target="#agentic-toggles-when-needed"><span class="header-section-number">B.2</span> Agentic “toggles” (when needed)</a></li>
+  <li><a href="#prompt-scaffolds-you-can-copy" id="toc-prompt-scaffolds-you-can-copy" class="nav-link" data-scroll-target="#prompt-scaffolds-you-can-copy"><span class="header-section-number">B.3</span> Prompt scaffolds you can copy</a>
+  <ul class="collapse">
+  <li><a href="#a.-reading-retrieval-prompts" id="toc-a.-reading-retrieval-prompts" class="nav-link" data-scroll-target="#a.-reading-retrieval-prompts"><span class="header-section-number">B.3.1</span> A. Reading → retrieval prompts</a></li>
+  <li><a href="#b.-code-review-for-reproducibility" id="toc-b.-code-review-for-reproducibility" class="nav-link" data-scroll-target="#b.-code-review-for-reproducibility"><span class="header-section-number">B.3.2</span> B. Code review for reproducibility</a></li>
+  <li><a href="#c.-outline-critique-scientific-report" id="toc-c.-outline-critique-scientific-report" class="nav-link" data-scroll-target="#c.-outline-critique-scientific-report"><span class="header-section-number">B.3.3</span> C. Outline critique (scientific report)</a></li>
+  <li><a href="#d.-geospatial-analysis-guardrails" id="toc-d.-geospatial-analysis-guardrails" class="nav-link" data-scroll-target="#d.-geospatial-analysis-guardrails"><span class="header-section-number">B.3.4</span> D. Geospatial analysis guardrails</a></li>
+  </ul></li>
+  <li><a href="#verification-beats-vibes" id="toc-verification-beats-vibes" class="nav-link" data-scroll-target="#verification-beats-vibes"><span class="header-section-number">B.4</span> Verification beats vibes</a></li>
+  <li><a href="#document-your-use" id="toc-document-your-use" class="nav-link" data-scroll-target="#document-your-use"><span class="header-section-number">B.5</span> Document your use</a></li>
+  <li><a href="#where-these-patterns-come-from" id="toc-where-these-patterns-come-from" class="nav-link" data-scroll-target="#where-these-patterns-come-from"><span class="header-section-number">B.6</span> Where these patterns come from</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">B.6.1</span> References</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./tools.html">Appendices</a></li><li class="breadcrumb-item"><a href="./prompt-engineering.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Prompt Engineering (Student Guide)</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Absences and Makeup Policies</span></h1>
+<h1 class="title">Appendix B — Prompt Engineering (Student Guide)</h1>
 </div>
 
 
@@ -244,32 +258,107 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="sec-absences" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="sec-absences"><span class="header-section-number">5.1</span> Excused Absences</h2>
-<p><a href="https://policy.umn.edu/education/makeupwork">University policy</a> recognizes that there are a variety of legitimate circumstances in which students will miss coursework, and that accommodations for makeup work will be made. These situations generally fall into several categories:</p>
-<ul>
-<li>illness, physical or mental, of the student or a student’s dependent;</li>
-<li>medical conditions related to pregnancy;</li>
-<li>participation in intercollegiate athletic events;</li>
-<li>subpoenas;</li>
-<li>jury duty;</li>
-<li>military service;</li>
-<li>bereavement, including travel related to bereavement;</li>
-<li>religious observances;</li>
-<li>participation in formal University system governance, including the University Senate, Student Senate, and Board of Regents meetings, by students selected as representatives to those bodies;</li>
-<li>taking college entrance exams (PSAT, ACT, SAT) for Post-Secondary Enrollment Option (PSEO) students that are provided at their high school; and</li>
-<li>activities sponsored by the University if identified by the senior academic officer for the campus or the officer’s designee as the basis for excused absences.</li>
-</ul>
-<p>These absences should be pre-coordinated with the instructor as soon as they are known - in emergency or unexpected situation, communication may occur after the fact. <strong>All other absences are considered unexcused absences.</strong></p>
+<blockquote class="blockquote">
+<p><strong>Goal:</strong> Get <em>useful</em>, <em>verifiable</em> help—without outsourcing your learning.</p>
+</blockquote>
+<section id="foundations-use-these-every-time" class="level2" data-number="B.1">
+<h2 data-number="B.1" class="anchored" data-anchor-id="foundations-use-these-every-time"><span class="header-section-number">B.1</span> Foundations (use these every time)</h2>
+<ol type="1">
+<li><strong>Be explicit.</strong> State the goal, audience, tone, and <strong>output contract</strong> (bullets? code? a table with specific columns?).<br>
+</li>
+<li><strong>Structure the task.</strong> Give headings or a checklist. The format matters more than fancy wording.<br>
+</li>
+<li><strong>Ask for a brief rationale.</strong> Request a 3–5 bullet “why this approach” summary (not a full hidden transcript).<br>
+</li>
+<li><strong>Plan first, then act.</strong> Ask the model to outline steps / assumptions before producing the answer.<br>
+</li>
+<li><strong>Avoid conflicting instructions.</strong> If you include exceptions, say <strong>exactly</strong> which rule wins.<br>
+</li>
+<li><strong>Iterate with a rubric.</strong> Tell the model how you’ll grade the result (e.g., Accuracy, Reproducibility, Clarity, Citations) and ask it to self-check against that rubric before finalizing.<br>
+</li>
+<li><strong>Constrain scope.</strong> Set limits: dataset size, time, number of alternatives, or libraries allowed.<br>
+</li>
+<li><strong>Provide context.</strong> Paste the paragraph, code, or figure description you’re working on; don’t ask in a vacuum.<br>
+</li>
+<li><strong>Prefer “show, then tell.”</strong> Ask for the result <strong>and</strong> a short verification checklist you can run.</li>
+</ol>
 </section>
-<section id="sec-unexcusedabsences" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="sec-unexcusedabsences"><span class="header-section-number">5.2</span> Makeup Policies for Unexcused Absences</h2>
-<p><em>Lecture Quizzes:</em> Lecture quizzes can be taken the following Monday in the case of an absence the previous week.</p>
-<p><em>Field and Lab Sessions:</em> If you miss a required field/lab session we will not be able to replicate the experience. In that case it is your responsibility to work with a classmate to understand the activity and complete the assignment. Planning ahead for these absences can help quite a bit as we may be able to have a classmate generate a video or explanation of the session.</p>
-<p><em>Assignments and Projects:</em> If you miss the due date for an assignment or project, you can still get partial credit, so please continue to do it! You will lose 10% of your grade for each week it is late (prorated by day; approximately 1.4% each day).</p>
-<p><em>Exams:</em> Generally speaking unexcused absences are not allowed for exams. If you will be absent for an exam or are sick (which is excused per policy above), please contact me and we will make alternative arrangements.</p>
+<section id="agentic-toggles-when-needed" class="level2" data-number="B.2">
+<h2 data-number="B.2" class="anchored" data-anchor-id="agentic-toggles-when-needed"><span class="header-section-number">B.2</span> Agentic “toggles” (when needed)</h2>
+<ul>
+<li><strong>Reasoning effort:</strong> If the model offers options (fast/medium/high), pick higher effort for complex tasks; otherwise add “Take the time to check edge cases and failure modes.”<br>
+</li>
+<li><strong>Parallelization:</strong> For independent subtasks (e.g., summarize 3 papers), allow parallel work; forbid it when steps depend on each other.</li>
+</ul>
+</section>
+<section id="prompt-scaffolds-you-can-copy" class="level2" data-number="B.3">
+<h2 data-number="B.3" class="anchored" data-anchor-id="prompt-scaffolds-you-can-copy"><span class="header-section-number">B.3</span> Prompt scaffolds you can copy</h2>
+<section id="a.-reading-retrieval-prompts" class="level3" data-number="B.3.1">
+<h3 data-number="B.3.1" class="anchored" data-anchor-id="a.-reading-retrieval-prompts"><span class="header-section-number">B.3.1</span> A. Reading → retrieval prompts</h3>
+<pre><code>You are helping me study. From the excerpt below, write 5 Q→A pairs that test:
+- definitions,
+- claims + evidence,
+- assumptions.
+Each Q should be specific and answerable from the text. Keep answers ≤ 2 sentences.
+
+[PASTE EXCERPT]</code></pre>
+</section>
+<section id="b.-code-review-for-reproducibility" class="level3" data-number="B.3.2">
+<h3 data-number="B.3.2" class="anchored" data-anchor-id="b.-code-review-for-reproducibility"><span class="header-section-number">B.3.2</span> B. Code review for reproducibility</h3>
+<pre><code>Role: fussy lab TA.
+Task: review my R script for reproducibility problems.
+Output: a checklist with concrete fixes. Include file paths, seeds, package versions.
+
+[PASTE CODE]</code></pre>
+</section>
+<section id="c.-outline-critique-scientific-report" class="level3" data-number="B.3.3">
+<h3 data-number="B.3.3" class="anchored" data-anchor-id="c.-outline-critique-scientific-report"><span class="header-section-number">B.3.3</span> C. Outline critique (scientific report)</h3>
+<pre><code>Audience: soil science peers.
+Goal: critique my outline for clarity &amp; evidence.
+1) List missing background or definitions.
+2) Flag claims lacking data/figures.
+3) Suggest stronger topic sentences.
+
+[PASTE OUTLINE]</code></pre>
+</section>
+<section id="d.-geospatial-analysis-guardrails" class="level3" data-number="B.3.4">
+<h3 data-number="B.3.4" class="anchored" data-anchor-id="d.-geospatial-analysis-guardrails"><span class="header-section-number">B.3.4</span> D. Geospatial analysis guardrails</h3>
+<pre><code>You are a geospatial QA buddy.
+Given my analysis plan, identify:
+- CRS pitfalls,
+- raster/vector mismatches,
+- resampling/aggregation gotchas,
+- units and NA handling.
+Return a stepwise preflight checklist.
+
+[PASTE PLAN]</code></pre>
+</section>
+</section>
+<section id="verification-beats-vibes" class="level2" data-number="B.4">
+<h2 data-number="B.4" class="anchored" data-anchor-id="verification-beats-vibes"><span class="header-section-number">B.4</span> Verification beats vibes</h2>
+<ul>
+<li><strong>Numerical outputs</strong>: replicate in R; show code &amp; seeds.<br>
+</li>
+<li><strong>Citations</strong>: follow links and read them; don’t accept fabricated references.<br>
+</li>
+<li><strong>Claims</strong>: compare against course texts or primary sources.</li>
+</ul>
+</section>
+<section id="document-your-use" class="level2" data-number="B.5">
+<h2 data-number="B.5" class="anchored" data-anchor-id="document-your-use"><span class="header-section-number">B.5</span> Document your use</h2>
+<p>Every assignment includes an <strong>AI Use Log</strong> (see Writing &amp; AI). Prompts &amp; models matter: different instructions can change outcomes.</p>
+</section>
+<section id="where-these-patterns-come-from" class="level2" data-number="B.6">
+<h2 data-number="B.6" class="anchored" data-anchor-id="where-these-patterns-come-from"><span class="header-section-number">B.6</span> Where these patterns come from</h2>
+<p>They reflect what practitioners report works best for steerable models today, emphasizing <strong>clear instructions, structure, brief rationales, and iterative self-checks</strong>.</p>
+<section id="references" class="level3" data-number="B.6.1">
+<h3 data-number="B.6.1" class="anchored" data-anchor-id="references"><span class="header-section-number">B.6.1</span> References</h3>
+<ul>
+<li><em>AI Daily Brief</em>: “11 GPT-5 prompting techniques…” (transcript provided in class).</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -662,13 +751,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./assignments-points-grades.html" class="pagination-link" aria-label="Assignments, Points, and Grading">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Assignments, Points, and Grading</span></span>
+      <a href="./tools.html" class="pagination-link" aria-label="Tools">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Tools</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./fine-print.html" class="pagination-link" aria-label="The Fine Print">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">The Fine Print</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./philosophy.html" class="pagination-link" aria-label="Philosophy">
+        <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Philosophy</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,0 +1,98 @@
+---
+title: "Tools"
+description: "What to install, why it matters, and how we’ll use these tools in SOIL/ESPM 5555."
+---
+
+> **TL;DR for Day 1**  
+> Please arrive with everything in the checklist below installed and working. Bring your laptop.
+
+## Day 1 setup checklist
+
+- **R (≥ 4.3)** — base language for analysis.  
+- **RStudio Desktop (Posit)** — IDE for R.  
+- **Quarto** — literate programming & publishing (R Markdown’s successor).  
+- **Git** and a **GitHub** account — version control & collaboration.  
+- **Zotero** + **Zotero Connector** (browser) — reference manager & PDF annotation.  
+- **One LLM account** (your choice) — e.g., OpenAI ChatGPT, Anthropic Claude, Google Gemini, Perplexity. Free tiers are fine.  
+- **QGIS (3.x)** — open-source GIS.  
+-# to add Google Earth Engine
+- *(Optional but useful)* **VS Code** (for markdown & git), **Obsidian** (for a personal knowledge base).
+
+### Quick self-test
+Open RStudio and run:
+
+```r
+install.packages(c("tidyverse","sf","terra","janitor","here"))
+library(tidyverse); library(sf); library(terra)
+sessionInfo()
+```
+
+Open a terminal (in RStudio or system) and run:
+
+```bash
+git --version
+quarto --version
+```
+
+Open Zotero ▶ *Edit → Preferences → Sync* and confirm you can sign in. Install the Zotero Connector and confirm you can “Save to Zotero” from your browser.
+
+---
+
+## What these tools are (and why we use them)
+
+### R
+R is a programming language designed for **data analysis, statistics, and graphics**. We’ll use it to wrangle messy datasets, analyze experiments, and make publication-quality figures. You will write clean, **reproducible** code so your work can be re-run months later.
+
+- Core packages we’ll use: **tidyverse** (data wrangling, plotting), **sf** (vector geospatial), **terra** (rasters), **janitor** (clean tables), **here** (project paths).
+
+### RStudio (Posit)
+An IDE that makes R friendlier: script editor, console, plots, environment pane, projects, Git integration, and **Quarto** authoring. Think of it as “mission control” for the class.
+
+### Quarto
+A publishing system to create **notebooks, reports, slides, books, and websites** from code and markdown. You’ll submit analyses as **`.qmd`** documents that combine prose, code, and figures. (It’s the evolution of R Markdown.)
+
+### Git + GitHub
+Professional science = **version control**. Git records changes; GitHub lets you:
+- collaborate with teammates,
+- open issues / code review,
+- share reproducible projects.
+
+We’ll use feature branches and frequent commits with clear messages.
+
+### Zotero (+ Connector)
+Your **second brain for papers**. We’ll use Zotero to:
+- collect readings and PDFs,
+- **annotate** (highlights/notes),
+- export citations to Quarto,
+- keep a **reading audit trail** (see the Reading appendix).
+
+### QGIS
+We’ll use QGIS for quick exploratory mapping, geoprocessing, and cross-checking R outputs. If you’re new to GIS, QGIS gives you a visual entry point that complements R’s scripted workflows.
+
+### Large Language Models (LLMs)
+You’ll learn to use an LLM as a **reading companion, coding assistant, and writing aid**. We’ll practice **effective prompting** and **documentation of AI use** (see Writing & AI and Prompt Engineering appendices). Free tiers are sufficient.
+
+---
+
+## Accounts & configuration (15–30 min)
+
+1. **GitHub:** create an account and set your name/email in Git:
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email you@umn.edu
+   ```
+2. **Quarto + RStudio:** ensure RStudio detects Quarto (`Help → About` or `quarto --version`).
+3. **Zotero:** enable **Better BibTeX** (optional) for stable citation keys; enable PDF annotation syncing.
+4. **QGIS:** open once to finish setup; install plugins later as needed.
+
+---
+
+## How we’ll use this stack
+
+- **Reproducible analysis**: R + Quarto notebooks for labs & projects.
+- **Versioned projects**: Git/GitHub for collaboration and accountability.
+- **Reading workflow**: Zotero to annotate; export notes; connect to Quarto citations.
+- **Geospatial**: QGIS for inspection; R for scripted pipelines.
+- **AI assistance**: LLMs for scaffolding ideas, debugging code, and generating *first-pass* outlines—**with clear attribution/logs**.
+
+> **Mindset**: You don’t have to be a “programmer” to succeed here, but you **cannot afford** to avoid computational tools. We will learn them together, step by step.

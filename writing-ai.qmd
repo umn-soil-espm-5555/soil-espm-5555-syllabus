@@ -1,0 +1,64 @@
+---
+title: "Writing in the Age of AI"
+description: "Expectations for drafting, revising, and documenting AI use in your writing."
+---
+
+## Writing as thinking
+
+Good writing **clarifies thought**. In this course, writing is not a last-minute wrapper; it’s part of the analysis. Expect multiple drafts and targeted revisions.
+
+## What AI changes—and what it doesn’t
+
+- AI can help you **brainstorm, outline, critique, and rephrase**.  
+- AI cannot understand your specific field data, lab context, or instructor’s expectations unless **you** do.  
+- **You are responsible** for factual accuracy, citations, and integrity.
+
+> Our separate **AI Policy** covers boundaries (originality, attribution, and prohibited uses). This chapter focuses on practice.
+
+## Required AI use log (attach with submissions)
+
+Include a brief section at the end of your Quarto document:
+
+```
+AI Use Log
+- Models: (e.g., GPT-5, Claude, Gemini)
+- Purpose(s): brainstorming, outline critique, code debugging, copyediting
+- Prompts (or gist): 
+- What I kept vs. discarded:
+- Verification steps (how I checked claims / code):
+- Date(s):
+```
+
+## A pragmatic workflow
+
+1. **Define the deliverable** (audience, purpose, constraints).  
+2. **Outline**: produce a simple structure (thesis → sections → evidence).  
+3. **Draft 0 with AI** (optional): ask for a **skeletal** outline or a list of counterarguments.  
+4. **Write Draft 1 yourself**: fill sections using your results, figures, and citations.  
+5. **Targeted AI passes**:  
+   - “Point out unclear claims and missing evidence.”  
+   - “Suggest stronger topic sentences for each paragraph.”  
+   - “Propose 3 alternative figure captions grounded in the text.”  
+6. **Fact-check & code-check**: run your analysis; verify numbers and references.  
+7. **Polish**: style, transitions, title, abstract.
+
+## On “prompt engineering” for writing
+
+Much of modern writing with AI is **asking better questions**. You’ll get better results by being explicit about **tone, audience, structure, constraints**, and **evaluation criteria** (see the Prompt Engineering appendix).
+
+## Citing influences
+
+When AI meaningfully shapes a paragraph or figure, treat it like any other tool or collaborator: **acknowledge it** in the AI Use Log and ensure all **sources are properly cited**.
+
+## Two podcast perspectives to consider
+
+- On study craft and deliberate practice in the LLM era (and why “just reading” isn’t enough).  
+- On transforming prompts into better prompts and using AI to build a reusable memory system.
+
+*(See references for specific episodes.)*
+
+## References
+
+- Podcast episode (Spotify): <https://open.spotify.com/episode/4xlobVHitjNAyNfE2Qrkz7>  
+- Podcast episode (Spotify): <https://open.spotify.com/episode/1VhdJkZHGMe9rqWrk3eO0i>
+- Course Prompt Engineering appendix (this e-book).

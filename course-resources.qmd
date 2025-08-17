@@ -12,6 +12,17 @@ This text is available for free to you digitally if you are either on campus or 
 
 - [UMN Libraries](https://primo.lib.umn.edu/discovery/search?query=any,contains,wetland%20soils%20vepraskas&tab=Everything&search_scope=TwinCitiesCampus_and_CI&sortby=date_d&vid=01UMN_INST:TWINCITIES&facet=frbrgroupid,include,9080023117238733320&lang=en&offset=0)
 
+*Textbook (Recommended)* If you have not taken a Basic Soil Science course or are new to Soil Science you may consider getting the classic Brady and Weil reference "Nature and Properties of Soils".
+
+You can get used versions of the current edition (15th) for ~$60-70 or previous editions for even cheaper:
+
+- [Nature and Properties of Soils, 1104 pages; Amazon](https://www.amazon.com/Nature-Properties-Soils-15th/dp/0133254488)
+
+There is also and abridged version of this book "Elements of the Nature and Properties of Soils", which is now on the 4th edition:
+
+- [Elements of the Nature and Properties of Soils, 768 pages; Amazon](https://www.amazon.com/Elements-Nature-Properties-Soils-4th/dp/0133254593). Previous editions of this book are even cheaper.
+
+
 *Readings (Required & Recommended)* Any additional required or recommended readings will be posted to the course Canvas site each week.
 
 *Course Canvas Site:* Lecture notes and other course materials will be available on the class website through Canvas. If you are registered for the class, you have automatically been given access privileges to the SOIL/ESPM 5555 Canvas site. There is a single Canvas site for both courses listed under ESPM 5555.

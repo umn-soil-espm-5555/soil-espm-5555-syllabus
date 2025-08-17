@@ -1,0 +1,86 @@
+---
+title: "Prompt Engineering (Student Guide)"
+description: "Simple, reliable patterns for getting useful help from LLMs in this course."
+---
+
+> **Goal:** Get *useful*, *verifiable* help—without outsourcing your learning.
+
+## Foundations (use these every time)
+
+1. **Be explicit.** State the goal, audience, tone, and **output contract** (bullets? code? a table with specific columns?).  
+2. **Structure the task.** Give headings or a checklist. The format matters more than fancy wording.  
+3. **Ask for a brief rationale.** Request a 3–5 bullet “why this approach” summary (not a full hidden transcript).  
+4. **Plan first, then act.** Ask the model to outline steps / assumptions before producing the answer.  
+5. **Avoid conflicting instructions.** If you include exceptions, say **exactly** which rule wins.  
+6. **Iterate with a rubric.** Tell the model how you’ll grade the result (e.g., Accuracy, Reproducibility, Clarity, Citations) and ask it to self-check against that rubric before finalizing.  
+7. **Constrain scope.** Set limits: dataset size, time, number of alternatives, or libraries allowed.  
+8. **Provide context.** Paste the paragraph, code, or figure description you’re working on; don’t ask in a vacuum.  
+9. **Prefer “show, then tell.”** Ask for the result **and** a short verification checklist you can run.
+
+## Agentic “toggles” (when needed)
+
+- **Reasoning effort:** If the model offers options (fast/medium/high), pick higher effort for complex tasks; otherwise add “Take the time to check edge cases and failure modes.”  
+- **Parallelization:** For independent subtasks (e.g., summarize 3 papers), allow parallel work; forbid it when steps depend on each other.
+
+## Prompt scaffolds you can copy
+
+### A. Reading → retrieval prompts
+```
+You are helping me study. From the excerpt below, write 5 Q→A pairs that test:
+- definitions,
+- claims + evidence,
+- assumptions.
+Each Q should be specific and answerable from the text. Keep answers ≤ 2 sentences.
+
+[PASTE EXCERPT]
+```
+
+### B. Code review for reproducibility
+```
+Role: fussy lab TA.
+Task: review my R script for reproducibility problems.
+Output: a checklist with concrete fixes. Include file paths, seeds, package versions.
+
+[PASTE CODE]
+```
+
+### C. Outline critique (scientific report)
+```
+Audience: soil science peers.
+Goal: critique my outline for clarity & evidence.
+1) List missing background or definitions.
+2) Flag claims lacking data/figures.
+3) Suggest stronger topic sentences.
+
+[PASTE OUTLINE]
+```
+
+### D. Geospatial analysis guardrails
+```
+You are a geospatial QA buddy.
+Given my analysis plan, identify:
+- CRS pitfalls,
+- raster/vector mismatches,
+- resampling/aggregation gotchas,
+- units and NA handling.
+Return a stepwise preflight checklist.
+
+[PASTE PLAN]
+```
+
+## Verification beats vibes
+
+- **Numerical outputs**: replicate in R; show code & seeds.  
+- **Citations**: follow links and read them; don’t accept fabricated references.  
+- **Claims**: compare against course texts or primary sources.
+
+## Document your use
+
+Every assignment includes an **AI Use Log** (see Writing & AI). Prompts & models matter: different instructions can change outcomes.
+
+## Where these patterns come from
+
+They reflect what practitioners report works best for steerable models today, emphasizing **clear instructions, structure, brief rationales, and iterative self-checks**.
+
+### References
+- *AI Daily Brief*: “11 GPT-5 prompting techniques…” (transcript provided in class).

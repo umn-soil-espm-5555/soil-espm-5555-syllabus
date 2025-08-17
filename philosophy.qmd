@@ -1,0 +1,74 @@
+---
+title: "Philosophy"
+description: "Why this course matters in an AI era, and what I expect from you—and from college."
+---
+
+## The value proposition (in 2025)
+
+College has to do more than pass information you could Google. It must train you to **connect field observations, data, and theory**—to build models of the world and act on them. In soil and environmental science, the competitive edge is the ability to **integrate**: design a sampling plan, collect data, analyze it, interpret uncertainty, and communicate implications.
+
+## Growth mindset, elevated expectations
+
+- **No opting out of computers.** You will write code, use GIS, and interact with AI tools. We will normalize being a beginner and **doing the work anyway**.
+- **Adaptive & can-do.** When stuck, you try something, read the docs, ask better questions, and iterate.
+- **Constant self-improvement.** Keep a *learning log*; track what you learned, broke, and fixed.
+
+> **We’re on a learning journey together.** I will model my own process (including mistakes). Your job is to *engage*, not to perform perfection.
+
+## AI: tools vs. foundations
+
+- **Foundation models** (e.g., general LLMs) learn broad patterns from massive data; **apps** (chatbots, copilots) wrap those models with UX and guardrails.  
+- You should **know the difference** well enough to evaluate reliability, bias, and when to escalate to a human expert.
+- We will use AI to **accelerate** thinking—but not to *replace* reading, reasoning, or evidence.
+
+## Habits that win (in class and in the workforce)
+
+1. **Read deeply** (see Reading appendix). Slow down; annotate; *prove* you understood via an audit trail.  
+2. **Write to think** (see Writing & AI). Draft, revise, cite; show your prompts & model versions when AI assisted.  
+3. **Reproduce results**. Put everything in Quarto + Git; make it re-runnable.  
+4. **Instrument your learning.** Build spaced-repetition prompts from key ideas; schedule review.  
+5. **Integrate field, data, theory.** Every lab pushes you to connect all three.
+
+## Energy: get serious, get interested, get excited
+
+This course is an invitation to **raise your ceiling**. Curiosity is a muscle: the more you train it—by asking better questions, running cleaner analyses, and communicating clearly—the more valuable you become.
+
+> **Bottom line:** You don’t have to already be “good at this.” You just have to be willing to get good at this.
+
+## Futureproof habits (adapted from Kevin Roose)
+
+Kevin Roose’s *Futureproof* lays out nine rules for thriving alongside automation. Below I’ve **reframed them for this class**—tying each to how we’ll learn and work in SOIL/ESPM 5555.
+
+1. **Be surprising, social, and scarce.** Double down on the parts machines don’t do well—explaining decisions, collaborating, teaching, designing visuals, telling the story behind the data.  
+   *Course lens:* pair programming, quick stand-ups, short oral briefings, and figure-first writing in Quarto.
+
+2. **Resist machine drift.** Feeds and defaults nudge you to the median. We push back with **slow, deliberate reading** and independent checks.  
+   *Course lens:* annotated reading with an audit trail; compare model output to primary sources and notebooks.
+
+3. **Demote your devices.** Use tech intentionally, not reflexively.  
+   *Course lens:* focus blocks in lab; notifications off; do-not-disturb during field work and code reviews.
+
+4. **Leave handprints.** Don’t just work hard—work **recognizably human**.  
+   *Course lens:* commentary cells that explain *why* not just *what*; defensible design choices; commit messages with reasoning.
+
+5. **Don’t be an endpoint.** If your role is only relaying between tools, you’re easy to automate.  
+   *Course lens:* own the pipeline—from field plan → data → analysis → interpretation → decision; integrate field, data, and theory.
+
+6. **Treat AI like a “chimp army.”** Powerful but messy—useful with **clear instructions and supervision**.  
+   *Course lens:* prompt scaffolds, verification checklists, and an **AI Use Log** for every assignment (what you asked, what it produced, how you verified).
+
+7. **Build big nets and small webs.** Systems and communities matter.  
+   *Course lens:* peer reviews, GitHub issues, and posting MREs (minimal reproducible examples) when stuck; practice being the teammate people want.
+
+8. **Learn the machine-age humanities.** Attention, judgment, ethics, “room reading,” and healthy skepticism are technical skills now.  
+   *Course lens:* assess uncertainty, cite responsibly, narrate limitations and downstream effects in every substantial brief.
+
+9. **Support the rebels.** Back people improving tech’s ethics and transparency.  
+   *Course lens:* raise tradeoffs (privacy, bias, externalities) in project pitches; know the difference between **foundation models** and the apps built on them.
+
+> **How this fits our philosophy:** In an era where you “can’t afford to *not* do computers,” these habits turn AI into leverage rather than a crutch. They raise expectations for college-level work, prepare you for a workforce where tools change weekly, and align with our growth mindset: curious, adaptive, and continually leveling up. Bring the tools on day one; bring the mindset every day.
+
+### References
+- Roose, K. (2021/2022). *Futureproof: 9 Rules for Humans in the Age of Automation*. Random House.  
+- Huth, A. (2021, Nov 15). “Future proof: 9 rules for humans in the age of automation.” (Concise summary of Roose’s rules.)  
+

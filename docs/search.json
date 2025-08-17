@@ -24,7 +24,7 @@
     "href": "index.html#lecture",
     "title": "Wetland Soils (SOIL/ESPM 5555) Syllabus - Fall 2025",
     "section": "Lecture",
-    "text": "Lecture\nM/W 3:00-3:50PM\n375 Borlaug Hall",
+    "text": "Lecture\nM/W 3:00-3:50PM\n365 Borlaug Hall",
     "crumbs": [
       "Preface"
     ]
@@ -34,7 +34,7 @@
     "href": "index.html#labfield-sessions",
     "title": "Wetland Soils (SOIL/ESPM 5555) Syllabus - Fall 2025",
     "section": "Lab/Field Sessions",
-    "text": "Lab/Field Sessions\nTh 3:00-6:00PM\nLocation TBD",
+    "text": "Lab/Field Sessions\nTh 3:00-6:00PM\nField Locations Vary, Indoor Location = 375 Borlaug Hall",
     "crumbs": [
       "Preface"
     ]
@@ -74,7 +74,7 @@
     "href": "course-resources.html",
     "title": "2  Course Resources",
     "section": "",
-    "text": "2.1 Textbook, Readings, and Website\nTextbook (Required) The required textbook for this class is:\nVepraskas, M.J., & Craft, C.B. (Eds.). (2016). Wetland Soils: Genesis, Hydrology, Landscapes, and Classification, Second Edition (2nd ed.). CRC Press. https://doi.org/10.1201/b18996\nThis text is available for free to you digitally if you are either on campus or connected via VPN (accessing through UMN) - you can access and download the chapters through:\nReadings (Required & Recommended) Any additional required or recommended readings will be posted to the course Canvas site each week.\nCourse Canvas Site: Lecture notes and other course materials will be available on the class website through Canvas. If you are registered for the class, you have automatically been given access privileges to the SOIL/ESPM 5555 Canvas site. There is a single Canvas site for both courses listed under ESPM 5555.",
+    "text": "2.1 Textbook, Readings, and Website\nTextbook (Required) The required textbook for this class is:\nVepraskas, M.J., & Craft, C.B. (Eds.). (2016). Wetland Soils: Genesis, Hydrology, Landscapes, and Classification, Second Edition (2nd ed.). CRC Press. https://doi.org/10.1201/b18996\nThis text is available for free to you digitally if you are either on campus or connected via VPN (accessing through UMN) - you can access and download the chapters through:\nTextbook (Recommended) If you have not taken a Basic Soil Science course or are new to Soil Science you may consider getting the classic Brady and Weil reference “Nature and Properties of Soils”.\nYou can get used versions of the current edition (15th) for ~$60-70 or previous editions for even cheaper:\nThere is also and abridged version of this book “Elements of the Nature and Properties of Soils”, which is now on the 4th edition:\nReadings (Required & Recommended) Any additional required or recommended readings will be posted to the course Canvas site each week.\nCourse Canvas Site: Lecture notes and other course materials will be available on the class website through Canvas. If you are registered for the class, you have automatically been given access privileges to the SOIL/ESPM 5555 Canvas site. There is a single Canvas site for both courses listed under ESPM 5555.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course Resources</span>"
     ]
@@ -84,7 +84,7 @@
     "href": "course-resources.html#textbook-readings-and-website",
     "title": "2  Course Resources",
     "section": "",
-    "text": "Taylor and Francis Group Publishing\nUMN Libraries\n\n\n\n\n\n\n\n\n\nCanvas Access\n\n\n\n\nVia myU portal: Go to myU Portal page at http://myu.umn.edu, login with your Internet ID, and click on the Key Links tab. Click on Canvas in the dropdown menu.\nVia Canvas server: Go to http://canvas.umn.edu and login there with your Internet ID. Once logged in, you will be able to see the link to sites you have access to.",
+    "text": "Taylor and Francis Group Publishing\nUMN Libraries\n\n\n\n\nNature and Properties of Soils, 1104 pages; Amazon\n\n\n\nElements of the Nature and Properties of Soils, 768 pages; Amazon. Previous editions of this book are even cheaper.\n\n\n\n\n\n\n\n\n\nCanvas Access\n\n\n\n\nVia myU portal: Go to myU Portal page at http://myu.umn.edu, login with your Internet ID, and click on the Key Links tab. Click on Canvas in the dropdown menu.\nVia Canvas server: Go to http://canvas.umn.edu and login there with your Internet ID. Once logged in, you will be able to see the link to sites you have access to.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course Resources</span>"
     ]
@@ -497,6 +497,358 @@
     "text": "9.2 Careers\nThere are many opportunities for engaging in careers related to soil science. Soil science and soil science adjacent careers are available throughout the public, private and non-profit sectors. I will be sending out career and internship opportunities throughout the semester.",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Further Opportunities in Soil Science</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Appendix A — Tools",
+    "section": "",
+    "text": "A.1 Day 1 setup checklist",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#day-1-setup-checklist",
+    "href": "tools.html#day-1-setup-checklist",
+    "title": "Appendix A — Tools",
+    "section": "",
+    "text": "R (≥ 4.3) — base language for analysis.\n\nRStudio Desktop (Posit) — IDE for R.\n\nQuarto — literate programming & publishing (R Markdown’s successor).\n\nGit and a GitHub account — version control & collaboration.\n\nZotero + Zotero Connector (browser) — reference manager & PDF annotation.\n\nOne LLM account (your choice) — e.g., OpenAI ChatGPT, Anthropic Claude, Google Gemini, Perplexity. Free tiers are fine.\n\nQGIS (3.x) — open-source GIS.\n-# to add Google Earth Engine\n(Optional but useful) VS Code (for markdown & git), Obsidian (for a personal knowledge base).\n\n\nA.1.1 Quick self-test\nOpen RStudio and run:\ninstall.packages(c(\"tidyverse\",\"sf\",\"terra\",\"janitor\",\"here\"))\nlibrary(tidyverse); library(sf); library(terra)\nsessionInfo()\nOpen a terminal (in RStudio or system) and run:\ngit --version\nquarto --version\nOpen Zotero ▶ Edit → Preferences → Sync and confirm you can sign in. Install the Zotero Connector and confirm you can “Save to Zotero” from your browser.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#what-these-tools-are-and-why-we-use-them",
+    "href": "tools.html#what-these-tools-are-and-why-we-use-them",
+    "title": "Appendix A — Tools",
+    "section": "A.2 What these tools are (and why we use them)",
+    "text": "A.2 What these tools are (and why we use them)\n\nA.2.1 R\nR is a programming language designed for data analysis, statistics, and graphics. We’ll use it to wrangle messy datasets, analyze experiments, and make publication-quality figures. You will write clean, reproducible code so your work can be re-run months later.\n\nCore packages we’ll use: tidyverse (data wrangling, plotting), sf (vector geospatial), terra (rasters), janitor (clean tables), here (project paths).\n\n\n\nA.2.2 RStudio (Posit)\nAn IDE that makes R friendlier: script editor, console, plots, environment pane, projects, Git integration, and Quarto authoring. Think of it as “mission control” for the class.\n\n\nA.2.3 Quarto\nA publishing system to create notebooks, reports, slides, books, and websites from code and markdown. You’ll submit analyses as .qmd documents that combine prose, code, and figures. (It’s the evolution of R Markdown.)\n\n\nA.2.4 Git + GitHub\nProfessional science = version control. Git records changes; GitHub lets you: - collaborate with teammates, - open issues / code review, - share reproducible projects.\nWe’ll use feature branches and frequent commits with clear messages.\n\n\nA.2.5 Zotero (+ Connector)\nYour second brain for papers. We’ll use Zotero to: - collect readings and PDFs, - annotate (highlights/notes), - export citations to Quarto, - keep a reading audit trail (see the Reading appendix).\n\n\nA.2.6 QGIS\nWe’ll use QGIS for quick exploratory mapping, geoprocessing, and cross-checking R outputs. If you’re new to GIS, QGIS gives you a visual entry point that complements R’s scripted workflows.\n\n\nA.2.7 Large Language Models (LLMs)\nYou’ll learn to use an LLM as a reading companion, coding assistant, and writing aid. We’ll practice effective prompting and documentation of AI use (see Writing & AI and Prompt Engineering appendices). Free tiers are sufficient.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#accounts-configuration-1530-min",
+    "href": "tools.html#accounts-configuration-1530-min",
+    "title": "Appendix A — Tools",
+    "section": "A.3 Accounts & configuration (15–30 min)",
+    "text": "A.3 Accounts & configuration (15–30 min)\n\nGitHub: create an account and set your name/email in Git:\ngit config --global user.name \"Your Name\"\ngit config --global user.email you@umn.edu\nQuarto + RStudio: ensure RStudio detects Quarto (Help → About or quarto --version).\nZotero: enable Better BibTeX (optional) for stable citation keys; enable PDF annotation syncing.\nQGIS: open once to finish setup; install plugins later as needed.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#how-well-use-this-stack",
+    "href": "tools.html#how-well-use-this-stack",
+    "title": "Appendix A — Tools",
+    "section": "A.4 How we’ll use this stack",
+    "text": "A.4 How we’ll use this stack\n\nReproducible analysis: R + Quarto notebooks for labs & projects.\nVersioned projects: Git/GitHub for collaboration and accountability.\nReading workflow: Zotero to annotate; export notes; connect to Quarto citations.\nGeospatial: QGIS for inspection; R for scripted pipelines.\nAI assistance: LLMs for scaffolding ideas, debugging code, and generating first-pass outlines—with clear attribution/logs.\n\n\nMindset: You don’t have to be a “programmer” to succeed here, but you cannot afford to avoid computational tools. We will learn them together, step by step.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "prompt-engineering.html",
+    "href": "prompt-engineering.html",
+    "title": "Appendix B — Prompt Engineering (Student Guide)",
+    "section": "",
+    "text": "B.1 Foundations (use these every time)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Prompt Engineering (Student Guide)</span>"
+    ]
+  },
+  {
+    "objectID": "prompt-engineering.html#foundations-use-these-every-time",
+    "href": "prompt-engineering.html#foundations-use-these-every-time",
+    "title": "Appendix B — Prompt Engineering (Student Guide)",
+    "section": "",
+    "text": "Be explicit. State the goal, audience, tone, and output contract (bullets? code? a table with specific columns?).\n\nStructure the task. Give headings or a checklist. The format matters more than fancy wording.\n\nAsk for a brief rationale. Request a 3–5 bullet “why this approach” summary (not a full hidden transcript).\n\nPlan first, then act. Ask the model to outline steps / assumptions before producing the answer.\n\nAvoid conflicting instructions. If you include exceptions, say exactly which rule wins.\n\nIterate with a rubric. Tell the model how you’ll grade the result (e.g., Accuracy, Reproducibility, Clarity, Citations) and ask it to self-check against that rubric before finalizing.\n\nConstrain scope. Set limits: dataset size, time, number of alternatives, or libraries allowed.\n\nProvide context. Paste the paragraph, code, or figure description you’re working on; don’t ask in a vacuum.\n\nPrefer “show, then tell.” Ask for the result and a short verification checklist you can run.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Prompt Engineering (Student Guide)</span>"
+    ]
+  },
+  {
+    "objectID": "prompt-engineering.html#agentic-toggles-when-needed",
+    "href": "prompt-engineering.html#agentic-toggles-when-needed",
+    "title": "Appendix B — Prompt Engineering (Student Guide)",
+    "section": "B.2 Agentic “toggles” (when needed)",
+    "text": "B.2 Agentic “toggles” (when needed)\n\nReasoning effort: If the model offers options (fast/medium/high), pick higher effort for complex tasks; otherwise add “Take the time to check edge cases and failure modes.”\n\nParallelization: For independent subtasks (e.g., summarize 3 papers), allow parallel work; forbid it when steps depend on each other.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Prompt Engineering (Student Guide)</span>"
+    ]
+  },
+  {
+    "objectID": "prompt-engineering.html#prompt-scaffolds-you-can-copy",
+    "href": "prompt-engineering.html#prompt-scaffolds-you-can-copy",
+    "title": "Appendix B — Prompt Engineering (Student Guide)",
+    "section": "B.3 Prompt scaffolds you can copy",
+    "text": "B.3 Prompt scaffolds you can copy\n\nB.3.1 A. Reading → retrieval prompts\nYou are helping me study. From the excerpt below, write 5 Q→A pairs that test:\n- definitions,\n- claims + evidence,\n- assumptions.\nEach Q should be specific and answerable from the text. Keep answers ≤ 2 sentences.\n\n[PASTE EXCERPT]\n\n\nB.3.2 B. Code review for reproducibility\nRole: fussy lab TA.\nTask: review my R script for reproducibility problems.\nOutput: a checklist with concrete fixes. Include file paths, seeds, package versions.\n\n[PASTE CODE]\n\n\nB.3.3 C. Outline critique (scientific report)\nAudience: soil science peers.\nGoal: critique my outline for clarity & evidence.\n1) List missing background or definitions.\n2) Flag claims lacking data/figures.\n3) Suggest stronger topic sentences.\n\n[PASTE OUTLINE]\n\n\nB.3.4 D. Geospatial analysis guardrails\nYou are a geospatial QA buddy.\nGiven my analysis plan, identify:\n- CRS pitfalls,\n- raster/vector mismatches,\n- resampling/aggregation gotchas,\n- units and NA handling.\nReturn a stepwise preflight checklist.\n\n[PASTE PLAN]",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Prompt Engineering (Student Guide)</span>"
+    ]
+  },
+  {
+    "objectID": "prompt-engineering.html#verification-beats-vibes",
+    "href": "prompt-engineering.html#verification-beats-vibes",
+    "title": "Appendix B — Prompt Engineering (Student Guide)",
+    "section": "B.4 Verification beats vibes",
+    "text": "B.4 Verification beats vibes\n\nNumerical outputs: replicate in R; show code & seeds.\n\nCitations: follow links and read them; don’t accept fabricated references.\n\nClaims: compare against course texts or primary sources.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Prompt Engineering (Student Guide)</span>"
+    ]
+  },
+  {
+    "objectID": "prompt-engineering.html#document-your-use",
+    "href": "prompt-engineering.html#document-your-use",
+    "title": "Appendix B — Prompt Engineering (Student Guide)",
+    "section": "B.5 Document your use",
+    "text": "B.5 Document your use\nEvery assignment includes an AI Use Log (see Writing & AI). Prompts & models matter: different instructions can change outcomes.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Prompt Engineering (Student Guide)</span>"
+    ]
+  },
+  {
+    "objectID": "prompt-engineering.html#where-these-patterns-come-from",
+    "href": "prompt-engineering.html#where-these-patterns-come-from",
+    "title": "Appendix B — Prompt Engineering (Student Guide)",
+    "section": "B.6 Where these patterns come from",
+    "text": "B.6 Where these patterns come from\nThey reflect what practitioners report works best for steerable models today, emphasizing clear instructions, structure, brief rationales, and iterative self-checks.\n\nB.6.1 References\n\nAI Daily Brief: “11 GPT-5 prompting techniques…” (transcript provided in class).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Prompt Engineering (Student Guide)</span>"
+    ]
+  },
+  {
+    "objectID": "philosophy.html",
+    "href": "philosophy.html",
+    "title": "Appendix C — Philosophy",
+    "section": "",
+    "text": "C.1 The value proposition (in 2025)\nCollege has to do more than pass information you could Google. It must train you to connect field observations, data, and theory—to build models of the world and act on them. In soil and environmental science, the competitive edge is the ability to integrate: design a sampling plan, collect data, analyze it, interpret uncertainty, and communicate implications.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Philosophy</span>"
+    ]
+  },
+  {
+    "objectID": "philosophy.html#growth-mindset-elevated-expectations",
+    "href": "philosophy.html#growth-mindset-elevated-expectations",
+    "title": "Appendix C — Philosophy",
+    "section": "C.2 Growth mindset, elevated expectations",
+    "text": "C.2 Growth mindset, elevated expectations\n\nNo opting out of computers. You will write code, use GIS, and interact with AI tools. We will normalize being a beginner and doing the work anyway.\nAdaptive & can-do. When stuck, you try something, read the docs, ask better questions, and iterate.\nConstant self-improvement. Keep a learning log; track what you learned, broke, and fixed.\n\n\nWe’re on a learning journey together. I will model my own process (including mistakes). Your job is to engage, not to perform perfection.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Philosophy</span>"
+    ]
+  },
+  {
+    "objectID": "philosophy.html#ai-tools-vs.-foundations",
+    "href": "philosophy.html#ai-tools-vs.-foundations",
+    "title": "Appendix C — Philosophy",
+    "section": "C.3 AI: tools vs. foundations",
+    "text": "C.3 AI: tools vs. foundations\n\nFoundation models (e.g., general LLMs) learn broad patterns from massive data; apps (chatbots, copilots) wrap those models with UX and guardrails.\n\nYou should know the difference well enough to evaluate reliability, bias, and when to escalate to a human expert.\nWe will use AI to accelerate thinking—but not to replace reading, reasoning, or evidence.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Philosophy</span>"
+    ]
+  },
+  {
+    "objectID": "philosophy.html#habits-that-win-in-class-and-in-the-workforce",
+    "href": "philosophy.html#habits-that-win-in-class-and-in-the-workforce",
+    "title": "Appendix C — Philosophy",
+    "section": "C.4 Habits that win (in class and in the workforce)",
+    "text": "C.4 Habits that win (in class and in the workforce)\n\nRead deeply (see Reading appendix). Slow down; annotate; prove you understood via an audit trail.\n\nWrite to think (see Writing & AI). Draft, revise, cite; show your prompts & model versions when AI assisted.\n\nReproduce results. Put everything in Quarto + Git; make it re-runnable.\n\nInstrument your learning. Build spaced-repetition prompts from key ideas; schedule review.\n\nIntegrate field, data, theory. Every lab pushes you to connect all three.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Philosophy</span>"
+    ]
+  },
+  {
+    "objectID": "philosophy.html#energy-get-serious-get-interested-get-excited",
+    "href": "philosophy.html#energy-get-serious-get-interested-get-excited",
+    "title": "Appendix C — Philosophy",
+    "section": "C.5 Energy: get serious, get interested, get excited",
+    "text": "C.5 Energy: get serious, get interested, get excited\nThis course is an invitation to raise your ceiling. Curiosity is a muscle: the more you train it—by asking better questions, running cleaner analyses, and communicating clearly—the more valuable you become.\n\nBottom line: You don’t have to already be “good at this.” You just have to be willing to get good at this.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Philosophy</span>"
+    ]
+  },
+  {
+    "objectID": "philosophy.html#futureproof-habits-adapted-from-kevin-roose",
+    "href": "philosophy.html#futureproof-habits-adapted-from-kevin-roose",
+    "title": "Appendix C — Philosophy",
+    "section": "C.6 Futureproof habits (adapted from Kevin Roose)",
+    "text": "C.6 Futureproof habits (adapted from Kevin Roose)\nKevin Roose’s Futureproof lays out nine rules for thriving alongside automation. Below I’ve reframed them for this class—tying each to how we’ll learn and work in SOIL/ESPM 5555.\n\nBe surprising, social, and scarce. Double down on the parts machines don’t do well—explaining decisions, collaborating, teaching, designing visuals, telling the story behind the data.\nCourse lens: pair programming, quick stand-ups, short oral briefings, and figure-first writing in Quarto.\nResist machine drift. Feeds and defaults nudge you to the median. We push back with slow, deliberate reading and independent checks.\nCourse lens: annotated reading with an audit trail; compare model output to primary sources and notebooks.\nDemote your devices. Use tech intentionally, not reflexively.\nCourse lens: focus blocks in lab; notifications off; do-not-disturb during field work and code reviews.\nLeave handprints. Don’t just work hard—work recognizably human.\nCourse lens: commentary cells that explain why not just what; defensible design choices; commit messages with reasoning.\nDon’t be an endpoint. If your role is only relaying between tools, you’re easy to automate.\nCourse lens: own the pipeline—from field plan → data → analysis → interpretation → decision; integrate field, data, and theory.\nTreat AI like a “chimp army.” Powerful but messy—useful with clear instructions and supervision.\nCourse lens: prompt scaffolds, verification checklists, and an AI Use Log for every assignment (what you asked, what it produced, how you verified).\nBuild big nets and small webs. Systems and communities matter.\nCourse lens: peer reviews, GitHub issues, and posting MREs (minimal reproducible examples) when stuck; practice being the teammate people want.\nLearn the machine-age humanities. Attention, judgment, ethics, “room reading,” and healthy skepticism are technical skills now.\nCourse lens: assess uncertainty, cite responsibly, narrate limitations and downstream effects in every substantial brief.\nSupport the rebels. Back people improving tech’s ethics and transparency.\nCourse lens: raise tradeoffs (privacy, bias, externalities) in project pitches; know the difference between foundation models and the apps built on them.\n\n\nHow this fits our philosophy: In an era where you “can’t afford to not do computers,” these habits turn AI into leverage rather than a crutch. They raise expectations for college-level work, prepare you for a workforce where tools change weekly, and align with our growth mindset: curious, adaptive, and continually leveling up. Bring the tools on day one; bring the mindset every day.\n\n\nC.6.1 References\n\nRoose, K. (2021/2022). Futureproof: 9 Rules for Humans in the Age of Automation. Random House.\n\nHuth, A. (2021, Nov 15). “Future proof: 9 rules for humans in the age of automation.” (Concise summary of Roose’s rules.)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Philosophy</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html",
+    "href": "reading.html",
+    "title": "Appendix D — How We Read (and Prove It)",
+    "section": "",
+    "text": "D.1 Why slow reading?\nRushing through technical material is a great way to feel informed and stay confused. We’ll practice deliberate reading: making the author’s argument visible, mapping terms, checking examples, and capturing questions.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>How We Read (and Prove It)</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#two-anchors",
+    "href": "reading.html#two-anchors",
+    "title": "Appendix D — How We Read (and Prove It)",
+    "section": "D.2 Two anchors",
+    "text": "D.2 Two anchors\n\nAdler & Van Doren (1972), How to Read a Book.\nKey moves we’ll use:\n\nInspectional reading (skim to map the terrain; glossary, headings, figures).\n\nAnalytical reading (distill the thesis; outline; define terms; test with examples).\n\nSyntopical reading (compare multiple sources on the same idea).\n\nAndy Matuschak’s practice (study session with Dwarkesh Patel).\nTechniques we’ll borrow:\n\nTurn confusions into explicit questions (even before you know the answer).\nBuild retrieval prompts while you read (spaced repetition), not after.\nPeriodically recite back the argument in your own words to surface gaps.\n(See video link in References.)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>How We Read (and Prove It)</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#your-reading-audit-trail-what-you-show",
+    "href": "reading.html#your-reading-audit-trail-what-you-show",
+    "title": "Appendix D — How We Read (and Prove It)",
+    "section": "D.3 Your reading audit trail (what you show)",
+    "text": "D.3 Your reading audit trail (what you show)\nEvery assigned reading yields a short artifact you’ll submit with labs:\n\nZotero annotations: highlights + marginal notes (exported or shared in a Zotero group).\n\nOutline (bulleted): the section’s claim, evidence, definitions, and at least 3 questions you generated.\n\nConcept map (optional): terms and relationships.\n\nTwo retrieval prompts (Q→A pairs) you could review later.\n\n\nAcceptable formats:\n- PDF with visible annotations, or\n- Markdown export (Zotero → Notes → Copy as Markdown), or\n- Screenshot series (if reading on paper) plus typed notes.\n\n\nD.3.1 Template (paste into your notes)\nReading: &lt;citation&gt;\nThesis (1–2 sentences):\nKey definitions:\nEvidence/examples:\nI was confused by:\nConnections to previous material:\n2 retrieval prompts:\n  - Q:\n    A:\n  - Q:\n    A:",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>How We Read (and Prove It)</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#how-ai-fits-into-reading",
+    "href": "reading.html#how-ai-fits-into-reading",
+    "title": "Appendix D — How We Read (and Prove It)",
+    "section": "D.4 How AI fits into reading",
+    "text": "D.4 How AI fits into reading\n\nUse an LLM to clarify a passage or generate alternative examples.\n\nDo not accept paraphrases as understanding; respond in your own words and link back to the text.\n\nLog AI assistance in your audit trail: model, prompt, and what you kept or discarded.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>How We Read (and Prove It)</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#grading-rubric-lightweight",
+    "href": "reading.html#grading-rubric-lightweight",
+    "title": "Appendix D — How We Read (and Prove It)",
+    "section": "D.5 Grading rubric (lightweight)",
+    "text": "D.5 Grading rubric (lightweight)\n\nComplete trail (annotations + outline + questions + prompts).\n\nEvidence of thinking (your words, not just highlights).\n\nSpecificity (terms defined, claims stated; questions are concrete).\n\nIntegrity (AI use documented clearly).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>How We Read (and Prove It)</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#references",
+    "href": "reading.html#references",
+    "title": "Appendix D — How We Read (and Prove It)",
+    "section": "D.6 References",
+    "text": "D.6 References\n\nMortimer J. Adler & Charles Van Doren (1972). How to Read a Book.\n\nAndy Matuschak & Dwarkesh Patel, “Studying with Dwarkesh Patel – Introduction to Quantum Mechanics (Griffiths)” (YouTube). https://www.youtube.com/watch?v=OFuu4pesKf0",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>How We Read (and Prove It)</span>"
+    ]
+  },
+  {
+    "objectID": "writing-ai.html",
+    "href": "writing-ai.html",
+    "title": "Appendix E — Writing in the Age of AI",
+    "section": "",
+    "text": "E.1 Writing as thinking\nGood writing clarifies thought. In this course, writing is not a last-minute wrapper; it’s part of the analysis. Expect multiple drafts and targeted revisions.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Writing in the Age of AI</span>"
+    ]
+  },
+  {
+    "objectID": "writing-ai.html#what-ai-changesand-what-it-doesnt",
+    "href": "writing-ai.html#what-ai-changesand-what-it-doesnt",
+    "title": "Appendix E — Writing in the Age of AI",
+    "section": "E.2 What AI changes—and what it doesn’t",
+    "text": "E.2 What AI changes—and what it doesn’t\n\nAI can help you brainstorm, outline, critique, and rephrase.\n\nAI cannot understand your specific field data, lab context, or instructor’s expectations unless you do.\n\nYou are responsible for factual accuracy, citations, and integrity.\n\n\nOur separate AI Policy covers boundaries (originality, attribution, and prohibited uses). This chapter focuses on practice.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Writing in the Age of AI</span>"
+    ]
+  },
+  {
+    "objectID": "writing-ai.html#required-ai-use-log-attach-with-submissions",
+    "href": "writing-ai.html#required-ai-use-log-attach-with-submissions",
+    "title": "Appendix E — Writing in the Age of AI",
+    "section": "E.3 Required AI use log (attach with submissions)",
+    "text": "E.3 Required AI use log (attach with submissions)\nInclude a brief section at the end of your Quarto document:\nAI Use Log\n- Models: (e.g., GPT-5, Claude, Gemini)\n- Purpose(s): brainstorming, outline critique, code debugging, copyediting\n- Prompts (or gist): \n- What I kept vs. discarded:\n- Verification steps (how I checked claims / code):\n- Date(s):",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Writing in the Age of AI</span>"
+    ]
+  },
+  {
+    "objectID": "writing-ai.html#a-pragmatic-workflow",
+    "href": "writing-ai.html#a-pragmatic-workflow",
+    "title": "Appendix E — Writing in the Age of AI",
+    "section": "E.4 A pragmatic workflow",
+    "text": "E.4 A pragmatic workflow\n\nDefine the deliverable (audience, purpose, constraints).\n\nOutline: produce a simple structure (thesis → sections → evidence).\n\nDraft 0 with AI (optional): ask for a skeletal outline or a list of counterarguments.\n\nWrite Draft 1 yourself: fill sections using your results, figures, and citations.\n\nTargeted AI passes:\n\n“Point out unclear claims and missing evidence.”\n\n“Suggest stronger topic sentences for each paragraph.”\n\n“Propose 3 alternative figure captions grounded in the text.”\n\n\nFact-check & code-check: run your analysis; verify numbers and references.\n\nPolish: style, transitions, title, abstract.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Writing in the Age of AI</span>"
+    ]
+  },
+  {
+    "objectID": "writing-ai.html#on-prompt-engineering-for-writing",
+    "href": "writing-ai.html#on-prompt-engineering-for-writing",
+    "title": "Appendix E — Writing in the Age of AI",
+    "section": "E.5 On “prompt engineering” for writing",
+    "text": "E.5 On “prompt engineering” for writing\nMuch of modern writing with AI is asking better questions. You’ll get better results by being explicit about tone, audience, structure, constraints, and evaluation criteria (see the Prompt Engineering appendix).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Writing in the Age of AI</span>"
+    ]
+  },
+  {
+    "objectID": "writing-ai.html#citing-influences",
+    "href": "writing-ai.html#citing-influences",
+    "title": "Appendix E — Writing in the Age of AI",
+    "section": "E.6 Citing influences",
+    "text": "E.6 Citing influences\nWhen AI meaningfully shapes a paragraph or figure, treat it like any other tool or collaborator: acknowledge it in the AI Use Log and ensure all sources are properly cited.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Writing in the Age of AI</span>"
+    ]
+  },
+  {
+    "objectID": "writing-ai.html#two-podcast-perspectives-to-consider",
+    "href": "writing-ai.html#two-podcast-perspectives-to-consider",
+    "title": "Appendix E — Writing in the Age of AI",
+    "section": "E.7 Two podcast perspectives to consider",
+    "text": "E.7 Two podcast perspectives to consider\n\nOn study craft and deliberate practice in the LLM era (and why “just reading” isn’t enough).\n\nOn transforming prompts into better prompts and using AI to build a reusable memory system.\n\n(See references for specific episodes.)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Writing in the Age of AI</span>"
+    ]
+  },
+  {
+    "objectID": "writing-ai.html#references",
+    "href": "writing-ai.html#references",
+    "title": "Appendix E — Writing in the Age of AI",
+    "section": "E.8 References",
+    "text": "E.8 References\n\nPodcast episode (Spotify): https://open.spotify.com/episode/4xlobVHitjNAyNfE2Qrkz7\n\nPodcast episode (Spotify): https://open.spotify.com/episode/1VhdJkZHGMe9rqWrk3eO0i\nCourse Prompt Engineering appendix (this e-book).",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Writing in the Age of AI</span>"
     ]
   }
 ]
