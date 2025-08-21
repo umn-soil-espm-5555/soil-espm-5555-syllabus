@@ -34,6 +34,7 @@ book:
     - philosophy.qmd         # Appendix C — Philosophy
     - reading.qmd        # Appendix D — Reading
     - writing-ai.qmd     # Appendix E — Writing & AI
+    - thinking-5yo.qmd   # Appendix F - Thinking like a 5 year old
         
 
 bibliography: references.bib

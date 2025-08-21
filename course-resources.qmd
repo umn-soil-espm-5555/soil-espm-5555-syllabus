@@ -1,6 +1,6 @@
 # Course Resources
 
-## Textbook, Readings, and Website
+## Textbook, Readings, and Canvas Site {#sec-textbook}
 
 *Textbook (Required)* The required textbook for this class is:
 
@@ -34,6 +34,13 @@ There is also and abridged version of this book "Elements of the Nature and Prop
 
 -   Via Canvas server: Go to <http://canvas.umn.edu> and login there with your Internet ID. Once logged in, you will be able to see the link to sites you have access to.
 :::
+
+## Class Discord
+
+We will be setting up a class Discord channel that will help facilitate rapid communication for our field sessions (without sharing phone numbers) as well as for peer assistance and communication. You can join the Discord server using the link here:
+https://discord.gg/BtKFJxmx
+
+I recommend adding the Discord app to your phone and turning notifications on (at least during the semester).
 
 ## Other Resources
 

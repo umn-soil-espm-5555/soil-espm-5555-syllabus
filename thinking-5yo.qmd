@@ -1,0 +1,55 @@
+# Thinking and Questioning Like a 5 Year-Old
+
+When we are young, our natural curiosity and lack of learned social constructs allows us to unabashedly ask the "stupid" questions with no shame (P.S. there are no stupid questions ;)). As we grow, we become self-conscious about the things we are just "supposed" to know, and we stop asking the "simple" or "stupid" questions out of fear of judgement. 
+
+The problem with this is that too often we self-censor our questions before we reach total understanding (or the end of natural curiosity) and we lose out in two ways 1) we don't fully learn and understand, and 2) we self-limit our natural curiosity. 
+
+In this class, I will encourage you to think and ask questions like a 5 year old. Pursue your understanding and curiosity to the limits, and most importantly, _document_ this process.
+
+## How to Do It
+
+My 5 year old will ask questions like this:
+
+::: callout-tip
+5yo: "Dada why do trees have leaves at the top and not the bottom?"
+
+Me: "So the leaves can intercept the most light possible so they can grow."
+
+5yo: "Why do they need light?"
+
+Me: "To do photosynthesis."
+
+5yo: "What is photosynthesis?"
+
+Me: "A thing plants do to take carbon from the air and build their own structures with it. They need light to do it."
+
+5yo: "What is carbon?"
+
+Me: "Carbon is an element."
+
+5yo: "What is an element?"
+
+Me: "Everything we see is made of elements which are different types of atoms."
+
+5yo: "How big are atoms?"
+
+Me: "So small you can't see them."
+
+5yo: "If we can't see them how do we know they are there?"
+
+Me: (Hits limit of knowledge of historical development of chemistry and the periodic table) "Well see it's complicated...." (actually doesn't understand).
+
+Also Me (now thinking to myself): Oh crap....how do we know? (proceeds to go down 2 day rabbit hole about the discovery of elements and origin of the periodic table).
+:::
+
+And that is just one of thousands of conversations. In many ways, my 5yo challenges my very assumptions about what I think I know every single day _because_ he is not afraid to dig and dig and dig and ask the "stupid" questions. The result is getting to the root nature of the things we accept as fact and are told is true and in that we unlock the profound.
+
+In this class, I want you to uncover assumptions, ask questions, and dig into your curiosity as far as it will take you. Transform your thinking into a question chain - let questions lead you to answers and answers into other questions. Don't be afraid to ask the simple questions as they are often the most profound.
+
+## How AI tools can enable it
+
+AI tools such as LLMs enable thinking like a 5 year old. Although we cannot and should not trust everything as it comes directly out of an LLM (and indeed we will be working on collective and independent verification of knowledge summaries produced by LLMs), LLM responses are generally extremely good for the sciences. Moreover, LLM discussion chains provide a record of a conversation and dialogue about a topic or set of information. Finally, LLMs may lower the bar for asking the simple but profound questions. Students who may not feel comfortable asking certain questions in class may unleash their full curiosity when having a conversation with an LLM. For these reasons and others, I believe the current generation of LLMs can be powerful and deep learning tools when used in the right way.
+
+## Why this is useful for research
+
+In a world with so much information at our fingertips, the goal of education should not simply be to produce humans that can regurgitate facts, but rather humans who know how to think and even better who know how to think and make interesting decisions about what to choose to think about. Research in any field is fundamentally about asking questions - and more specifically asking a question to start - a question which may seem surficial but leads to an answer and a subsequent question, and chain of questions, until we are asking deep questions about what we know, how we know it, and the nature of reality itself. *By "thinking like a 5 year old"", you are in fact training yourself to be a better scientist and researcher!*.

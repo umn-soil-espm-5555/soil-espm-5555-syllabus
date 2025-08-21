@@ -1,24 +1,26 @@
 # Assignments, Points, and Grading {#sec-assignments}
 
-## Assignments and Points (460 points)[^assignments-points-grades-1]
+## Assignments and Points (486 points)[^assignments-points-grades-1]
 
 [^assignments-points-grades-1]: see makeup policies
+
+In this class we emphasize _process_ over _product_ - and because this is a 5000-level course which encourages use of all available resources, I will expect you to learn through your own reading, writing, and experience in addition to materials from lecture and class activities. In other words, lecture in this class is not designed to spoon-feed you everything you need to know. We will use the [course textbook @sec-textbook] as a basic scaffold for most of the information but will be building our own wiki-style textbook as we go throughout the semester. 
 
 **Field Trip Reports (45 points, 10% of your grade)**
 
 You will be required to write a brief report for three of the four field sessions.  More specific details will be given before each field session.  You will be working in groups on the field sessions and each group will turn in a single report.  It should be well-written, clear and concise and follow standard format for soil profile descriptions. (3 reports x 15 points = 45 points).
 
-**Weekly Reading Annotations, Wiki Audit Trail, and Lecture Quizzes (60 points, 13% of your grade)**
+**Weekly Reading Annotations, Wiki Contributions, and Lecture Quizzes (86 points, 13% of your grade)**
 
-Each week, you will be asked to conduct There will be short, 5 question quizzes in lecture each week. These will typically be given on Wednesday, but can be taken the following Monday for credit in the case of an absence. These are learning assessments meant to understand how well concepts are being absorbed and understood in the class. These will be graded for completion, not accuracy (12 quizzes x 5 points = 60 points).
+Each week, you will be asked to complete required readings, largely from Vepraskas and Craft, 2016. To encourage [slow reading @sec-reading] I will ask that you provide an active reading audit trail in the form of annotations and marginalia (either physical or digital). Additionally, each week you will be asked to contribute a minimum of 5 researched citations and 3 pieces of content (either full pages or sections) which you will turn in using a [wiki-contribution log](https://docs.google.com/spreadsheets/d/1gRmGtMAoqWovaImaEfK-w8DJwKZDGL7ErcGff5PhSyI/edit?usp=sharing). Your reading annotations and wiki-contributions will be due on Friday of each week. Finally, there will be short quizzes in lecture each week. These will typically be given on Wednesday, but can be taken the following Monday for credit in the case of an absence. These are learning assessments meant to understand how well concepts are being absorbed and understood in the class.  These will be graded for completion, not accuracy (14 Reading Audits x 2 points + 14 wiki contributions x 2 points + 15 quizzes x 2 points = 86 points).
 
 **Assignment 1: Biochemistry Exercise (15 points, 3% of your grade)**
 
 You will be given access to a simplified R shiny app which will allow you to adjust parameters and experiment with what happens to soil redox potential under different scenarios. This will allow you to further your understanding of the biochemical processes that lead to redox reactions in wet soils. You will turn in individual reports online, but may work together if you like. (1 assignment x 10 points = 15 points).
 
-**Assignment 2: Redox Potential and Feature Project (15 points, 3% of your grade)**
+**Assignment 2: Redox Vial Project (15 points, 3% of your grade)**
 
-We will set up an experiment to monitor the formation of soil redoximorphic features and you will be provided data on changes in redox potential over several weeks.  You may work in groups but turn in an **individual report online.** (1 assignment x 15 points = 15 points).
+We will set up an experiment to monitor the formation of soil redoximorphic features in controlled vials throughout the semester.  You will work in groups but turn in an **individual report online.** (1 assignment x 15 points = 15 points).
 
 **Assignment 3: Hydric Soils Exercise (15 points, 3% of your grade)**
 
@@ -38,11 +40,11 @@ You will select a wetland type and location of interest to you and produce a 2 p
 
 **Group Hydric Soil Delineation Project (150 points, 33% of your grade)**
 
-Your group (3-4 students) will be assigned a parcel of Rice Creek North Regional Trail Corridor land located to the north of the Twin Cities Army Ammunition Plant in Shoreview.  Your task will be to delineate all areas of hydric soils within your parcel of approximately 40 acres.  Your group will flag the boundary in some sections (that I will field check); prepare a map of hydric soils; descriptions of upland, transitional, and hydric soils; and compile a comprehensive report for the site.  Final projects will be due on **Monday, December 8**.  We will provide aerial photographs and field equipment for this project and be available on certain dates to answer questions in the field.  Your group will compile a single report including background information, soil profile data, landscape descriptions, general vegetation, presumed hydrology, and a map of the hydric soil boundary for your assigned parcel of land.  You will use QGIS or ArcGIS to assist in the preparation of your final project and you will submit your project in an electronic pdf file.  More details for the report will be provided in the laboratory session. (1 assignment x 15 points = 15 points).
+Your group (3-4 students) will be assigned a parcel of Rice Creek North Regional Trail Corridor land located to the north of the Twin Cities Army Ammunition Plant in Shoreview.  Your task will be to delineate all areas of hydric soils within your parcel of approximately 40 acres.  Your group will flag the boundary in some sections (that I will field check); prepare a map of hydric soils; descriptions of upland, transitional, and hydric soils; and compile a comprehensive report for the site.  Final projects will be due on **Monday, December 8**.  We will provide field equipment for this project and be available on certain dates to answer questions in the field.  Your group will compile a single report including background information, soil profile data, landscape descriptions, general vegetation, presumed hydrology, and a map of the hydric soil boundary for your assigned parcel of land.  You will use QGIS or ArcGIS to assist in the preparation of your final project and you will submit your project in an electronic pdf file.  More details for the report will be provided in the laboratory session. (1 assignment x 15 points = 15 points).
 
 **Midterm Exam (50 points, 11% of your grade)**
 
-Midterm exams will be timed (75 minutes) and given in-person in Room 375 Borlaug Hall.. If you have any questions regarding how your exam was graded, please make an appointment to see me or write down your question and return it to me with your original exam within one week after the exams are returned.  Final course grades will be based on +/- system and adhere to the University Uniform Grading Standards. (2 midterm exams x 50 points = 100 points).
+The midterm exam will be given in-person in Room 365 Borlaug Hall. If you have any questions regarding how your exam was graded, please make an appointment to see me or write down your question and return it to me with your original exam within one week after the exams are returned.  Final course grades will be based on +/- system and adhere to the University Uniform Grading Standards. (2 midterm exams x 50 points = 100 points).
 
 **Small Group Activity/In-Class Wetland Assessment Proficiency (15 points, 3% of your grade)**
 
@@ -105,4 +107,4 @@ Here is how the course conforms:
 | Small Group Exam | 1         | 1 x 5 = 5 hours |
 | Final Exam           | 1          | 1 x 8 = 8 hours |
 |                  | IN CLASS\* | 45 hours          |
-|                  | TOTAL\*    | 135 hours         |
+|                  | TOTAL\    | 135 hours         |

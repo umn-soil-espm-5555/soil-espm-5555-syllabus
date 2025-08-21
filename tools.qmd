@@ -8,35 +8,12 @@ description: "What to install, why it matters, and how we’ll use these tools i
 
 ## Day 1 setup checklist
 
-- **R (≥ 4.3)** — base language for analysis.  
-- **RStudio Desktop (Posit)** — IDE for R.  
-- **Quarto** — literate programming & publishing (R Markdown’s successor).  
-- **Git** and a **GitHub** account — version control & collaboration.  
-- **Zotero** + **Zotero Connector** (browser) — reference manager & PDF annotation.  
-- **One LLM account** (your choice) — e.g., OpenAI ChatGPT, Anthropic Claude, Google Gemini, Perplexity. Free tiers are fine.  
-- **QGIS (3.x)** — open-source GIS.  
--# to add Google Earth Engine
-- *(Optional but useful)* **VS Code** (for markdown & git), **Obsidian** (for a personal knowledge base).
-
-### Quick self-test
-Open RStudio and run:
-
-```r
-install.packages(c("tidyverse","sf","terra","janitor","here"))
-library(tidyverse); library(sf); library(terra)
-sessionInfo()
-```
-
-Open a terminal (in RStudio or system) and run:
-
-```bash
-git --version
-quarto --version
-```
-
-Open Zotero ▶ *Edit → Preferences → Sync* and confirm you can sign in. Install the Zotero Connector and confirm you can “Save to Zotero” from your browser.
-
----
+- **[R (≥ 4.3) and R Studio Desktop](https://posit.co/download/rstudio-desktop/)** — base language for data analysis in this class and IDE for R. 
+- **Create a [GitHub](https://github.com) account** with your umn.edu email address. Additionally, download the [GitHub Desktop](https://desktop.github.com/download/) app.
+- **[Zotero](https://www.zotero.org)** + **[Zotero Connector](https://www.zotero.org/download/connectors)** (browser) — reference manager & PDF annotation. **IMPORTANT: create a Zotero account with your umn.edu email address. Download the Zotero Desktop app.**
+- **At least one LLM account** (your choice) — e.g., OpenAI ChatGPT, Anthropic Claude, Google Gemini, Microsoft Co-Pilot. Free tiers are fine. UMN offers enterprise level access to [Google Gemini](https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection) and [Microsoft Co-Pilot](https://it.umn.edu/services-technologies/copilot-enterprise-data-protection) (which is built on GPT).
+- **[QGIS](https://qgis.org) (3.x)** — open-source GIS.  
+- *(Optional but useful)* **[VS Code - Mac and PC](https://code.visualstudio.com/download) or [BBEdit - Mac only](https://www.barebones.com/products/bbedit/download.html)** (for raw text editing), **Obsidian** (for a personal knowledge base).
 
 ## What these tools are (and why we use them)
 
@@ -47,17 +24,6 @@ R is a programming language designed for **data analysis, statistics, and graphi
 
 ### RStudio (Posit)
 An IDE that makes R friendlier: script editor, console, plots, environment pane, projects, Git integration, and **Quarto** authoring. Think of it as “mission control” for the class.
-
-### Quarto
-A publishing system to create **notebooks, reports, slides, books, and websites** from code and markdown. You’ll submit analyses as **`.qmd`** documents that combine prose, code, and figures. (It’s the evolution of R Markdown.)
-
-### Git + GitHub
-Professional science = **version control**. Git records changes; GitHub lets you:
-- collaborate with teammates,
-- open issues / code review,
-- share reproducible projects.
-
-We’ll use feature branches and frequent commits with clear messages.
 
 ### Zotero (+ Connector)
 Your **second brain for papers**. We’ll use Zotero to:
@@ -72,26 +38,11 @@ We’ll use QGIS for quick exploratory mapping, geoprocessing, and cross-checkin
 ### Large Language Models (LLMs)
 You’ll learn to use an LLM as a **reading companion, coding assistant, and writing aid**. We’ll practice **effective prompting** and **documentation of AI use** (see Writing & AI and Prompt Engineering appendices). Free tiers are sufficient.
 
----
-
-## Accounts & configuration (15–30 min)
-
-1. **GitHub:** create an account and set your name/email in Git:
-   ```bash
-   git config --global user.name "Your Name"
-   git config --global user.email you@umn.edu
-   ```
-2. **Quarto + RStudio:** ensure RStudio detects Quarto (`Help → About` or `quarto --version`).
-3. **Zotero:** enable **Better BibTeX** (optional) for stable citation keys; enable PDF annotation syncing.
-4. **QGIS:** open once to finish setup; install plugins later as needed.
-
----
-
 ## How we’ll use this stack
 
 - **Reproducible analysis**: R + Quarto notebooks for labs & projects.
 - **Versioned projects**: Git/GitHub for collaboration and accountability.
-- **Reading workflow**: Zotero to annotate; export notes; connect to Quarto citations.
+- **Reading workflow**: Zotero to annotate; export notes; connect to wiki citations.
 - **Geospatial**: QGIS for inspection; R for scripted pipelines.
 - **AI assistance**: LLMs for scaffolding ideas, debugging code, and generating *first-pass* outlines—**with clear attribution/logs**.
 
