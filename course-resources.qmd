@@ -12,6 +12,22 @@ This text is available for free to you digitally if you are either on campus or 
 
 - [UMN Libraries](https://primo.lib.umn.edu/discovery/search?query=any,contains,wetland%20soils%20vepraskas&tab=Everything&search_scope=TwinCitiesCampus_and_CI&sortby=date_d&vid=01UMN_INST:TWINCITIES&facet=frbrgroupid,include,9080023117238733320&lang=en&offset=0)
 
+*Field Book for Describing and Sampling Soils (Required - FREE BUT MUST ORDER YOURSELF)*
+
+In addition to Vepraskas and Craft (2016), we will also be using the USDA-NRCS Field Book for Describing and Sampling Soils. You can download it as a pdf, but because we will be using this in the field, ordering a physical copy is ideal. Everyone needs their own copy; it is FREE, but you must order yourself from USDA-NRCS as follows:
+
+- Go to the [Field Book for Describing and Sampling Soils 4.0 page](https://nrcspad.sc.egov.usda.gov/DistributionCenter/product.aspx?ProductID=1797) of the USDA-NRCS Distribution Center. 
+
+- Click "Add to Basket"
+
+- Click "Checkout" _(don't worry it's free!)_
+
+- Unless you already have a NRCS Customer ID for some reason, you will click "Next" and this will prompt you to enter your information and mailing address to set up an account. Then click "Next".
+
+- You will then be assigned a Customer ID (the top row of the table); save this for future reference. You should be able to click "Submit Order". 
+
+- A physical copy of the book will arrive at the mailing address you entered, free of charge.
+
 *Textbook (Recommended)* If you have not taken a Basic Soil Science course or are new to Soil Science you may consider getting the classic Brady and Weil reference "Nature and Properties of Soils".
 
 You can get used versions of the current edition (15th) for ~$60-70 or previous editions for even cheaper:
@@ -37,7 +53,7 @@ There is also and abridged version of this book "Elements of the Nature and Prop
 
 ## Class Discord
 
-We will be setting up a class Discord channel that will help facilitate rapid communication for our field sessions (without sharing phone numbers) as well as for peer assistance and communication. You can join the Discord server using the link here:
+We will be setting up a class Discord channel that will help facilitate rapid communication for our field sessions (without sharing phone numbers) as well as for peer assistance and communication. You can join the class Discord server using the link here:
 https://discord.gg/BtKFJxmx
 
 I recommend adding the Discord app to your phone and turning notifications on (at least during the semester).

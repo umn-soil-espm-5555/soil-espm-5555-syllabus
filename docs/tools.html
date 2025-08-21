@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -240,6 +206,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Writing in the Age of AI</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./thinking-5yo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Thinking and Questioning Like a 5 Year-Old</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -252,22 +224,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#day-1-setup-checklist" id="toc-day-1-setup-checklist" class="nav-link active" data-scroll-target="#day-1-setup-checklist"><span class="header-section-number">A.1</span> Day 1 setup checklist</a>
-  <ul class="collapse">
-  <li><a href="#quick-self-test" id="toc-quick-self-test" class="nav-link" data-scroll-target="#quick-self-test"><span class="header-section-number">A.1.1</span> Quick self-test</a></li>
-  </ul></li>
+  <li><a href="#day-1-setup-checklist" id="toc-day-1-setup-checklist" class="nav-link active" data-scroll-target="#day-1-setup-checklist"><span class="header-section-number">A.1</span> Day 1 setup checklist</a></li>
   <li><a href="#what-these-tools-are-and-why-we-use-them" id="toc-what-these-tools-are-and-why-we-use-them" class="nav-link" data-scroll-target="#what-these-tools-are-and-why-we-use-them"><span class="header-section-number">A.2</span> What these tools are (and why we use them)</a>
   <ul class="collapse">
   <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">A.2.1</span> R</a></li>
   <li><a href="#rstudio-posit" id="toc-rstudio-posit" class="nav-link" data-scroll-target="#rstudio-posit"><span class="header-section-number">A.2.2</span> RStudio (Posit)</a></li>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto"><span class="header-section-number">A.2.3</span> Quarto</a></li>
-  <li><a href="#git-github" id="toc-git-github" class="nav-link" data-scroll-target="#git-github"><span class="header-section-number">A.2.4</span> Git + GitHub</a></li>
-  <li><a href="#zotero-connector" id="toc-zotero-connector" class="nav-link" data-scroll-target="#zotero-connector"><span class="header-section-number">A.2.5</span> Zotero (+ Connector)</a></li>
-  <li><a href="#qgis" id="toc-qgis" class="nav-link" data-scroll-target="#qgis"><span class="header-section-number">A.2.6</span> QGIS</a></li>
-  <li><a href="#large-language-models-llms" id="toc-large-language-models-llms" class="nav-link" data-scroll-target="#large-language-models-llms"><span class="header-section-number">A.2.7</span> Large Language Models (LLMs)</a></li>
+  <li><a href="#zotero-connector" id="toc-zotero-connector" class="nav-link" data-scroll-target="#zotero-connector"><span class="header-section-number">A.2.3</span> Zotero (+ Connector)</a></li>
+  <li><a href="#qgis" id="toc-qgis" class="nav-link" data-scroll-target="#qgis"><span class="header-section-number">A.2.4</span> QGIS</a></li>
+  <li><a href="#large-language-models-llms" id="toc-large-language-models-llms" class="nav-link" data-scroll-target="#large-language-models-llms"><span class="header-section-number">A.2.5</span> Large Language Models (LLMs)</a></li>
   </ul></li>
-  <li><a href="#accounts-configuration-1530-min" id="toc-accounts-configuration-1530-min" class="nav-link" data-scroll-target="#accounts-configuration-1530-min"><span class="header-section-number">A.3</span> Accounts &amp; configuration (15–30 min)</a></li>
-  <li><a href="#how-well-use-this-stack" id="toc-how-well-use-this-stack" class="nav-link" data-scroll-target="#how-well-use-this-stack"><span class="header-section-number">A.4</span> How we’ll use this stack</a></li>
+  <li><a href="#how-well-use-this-stack" id="toc-how-well-use-this-stack" class="nav-link" data-scroll-target="#how-well-use-this-stack"><span class="header-section-number">A.3</span> How we’ll use this stack</a></li>
   </ul>
 </nav>
     </div>
@@ -300,34 +266,14 @@ Please arrive with everything in the checklist below installed and working. Brin
 <section id="day-1-setup-checklist" class="level2" data-number="A.1">
 <h2 data-number="A.1" class="anchored" data-anchor-id="day-1-setup-checklist"><span class="header-section-number">A.1</span> Day 1 setup checklist</h2>
 <ul>
-<li><strong>R (≥ 4.3)</strong> — base language for analysis.<br>
+<li><strong><a href="https://posit.co/download/rstudio-desktop/">R (≥ 4.3) and R Studio Desktop</a></strong> — base language for data analysis in this class and IDE for R.</li>
+<li><strong>Create a <a href="https://github.com">GitHub</a> account</strong> with your umn.edu email address. Additionally, download the <a href="https://desktop.github.com/download/">GitHub Desktop</a> app.</li>
+<li><strong><a href="https://www.zotero.org">Zotero</a></strong> + <strong><a href="https://www.zotero.org/download/connectors">Zotero Connector</a></strong> (browser) — reference manager &amp; PDF annotation. <strong>IMPORTANT: create a Zotero account with your umn.edu email address. Download the Zotero Desktop app.</strong></li>
+<li><strong>At least one LLM account</strong> (your choice) — e.g., OpenAI ChatGPT, Anthropic Claude, Google Gemini, Microsoft Co-Pilot. Free tiers are fine. UMN offers enterprise level access to <a href="https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection">Google Gemini</a> and <a href="https://it.umn.edu/services-technologies/copilot-enterprise-data-protection">Microsoft Co-Pilot</a> (which is built on GPT).</li>
+<li><strong><a href="https://qgis.org">QGIS</a> (3.x)</strong> — open-source GIS.<br>
 </li>
-<li><strong>RStudio Desktop (Posit)</strong> — IDE for R.<br>
-</li>
-<li><strong>Quarto</strong> — literate programming &amp; publishing (R Markdown’s successor).<br>
-</li>
-<li><strong>Git</strong> and a <strong>GitHub</strong> account — version control &amp; collaboration.<br>
-</li>
-<li><strong>Zotero</strong> + <strong>Zotero Connector</strong> (browser) — reference manager &amp; PDF annotation.<br>
-</li>
-<li><strong>One LLM account</strong> (your choice) — e.g., OpenAI ChatGPT, Anthropic Claude, Google Gemini, Perplexity. Free tiers are fine.<br>
-</li>
-<li><strong>QGIS (3.x)</strong> — open-source GIS.<br>
--# to add Google Earth Engine</li>
-<li><em>(Optional but useful)</em> <strong>VS Code</strong> (for markdown &amp; git), <strong>Obsidian</strong> (for a personal knowledge base).</li>
+<li><em>(Optional but useful)</em> <strong><a href="https://code.visualstudio.com/download">VS Code - Mac and PC</a> or <a href="https://www.barebones.com/products/bbedit/download.html">BBEdit - Mac only</a></strong> (for raw text editing), <strong>Obsidian</strong> (for a personal knowledge base).</li>
 </ul>
-<section id="quick-self-test" class="level3" data-number="A.1.1">
-<h3 data-number="A.1.1" class="anchored" data-anchor-id="quick-self-test"><span class="header-section-number">A.1.1</span> Quick self-test</h3>
-<p>Open RStudio and run:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"tidyverse"</span>,<span class="st">"sf"</span>,<span class="st">"terra"</span>,<span class="st">"janitor"</span>,<span class="st">"here"</span>))</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse); <span class="fu">library</span>(sf); <span class="fu">library</span>(terra)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sessionInfo</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Open a terminal (in RStudio or system) and run:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Open Zotero ▶ <em>Edit → Preferences → Sync</em> and confirm you can sign in. Install the Zotero Connector and confirm you can “Save to Zotero” from your browser.</p>
-<hr>
-</section>
 </section>
 <section id="what-these-tools-are-and-why-we-use-them" class="level2" data-number="A.2">
 <h2 data-number="A.2" class="anchored" data-anchor-id="what-these-tools-are-and-why-we-use-them"><span class="header-section-number">A.2</span> What these tools are (and why we use them)</h2>
@@ -342,47 +288,25 @@ Please arrive with everything in the checklist below installed and working. Brin
 <h3 data-number="A.2.2" class="anchored" data-anchor-id="rstudio-posit"><span class="header-section-number">A.2.2</span> RStudio (Posit)</h3>
 <p>An IDE that makes R friendlier: script editor, console, plots, environment pane, projects, Git integration, and <strong>Quarto</strong> authoring. Think of it as “mission control” for the class.</p>
 </section>
-<section id="quarto" class="level3" data-number="A.2.3">
-<h3 data-number="A.2.3" class="anchored" data-anchor-id="quarto"><span class="header-section-number">A.2.3</span> Quarto</h3>
-<p>A publishing system to create <strong>notebooks, reports, slides, books, and websites</strong> from code and markdown. You’ll submit analyses as <strong><code>.qmd</code></strong> documents that combine prose, code, and figures. (It’s the evolution of R Markdown.)</p>
-</section>
-<section id="git-github" class="level3" data-number="A.2.4">
-<h3 data-number="A.2.4" class="anchored" data-anchor-id="git-github"><span class="header-section-number">A.2.4</span> Git + GitHub</h3>
-<p>Professional science = <strong>version control</strong>. Git records changes; GitHub lets you: - collaborate with teammates, - open issues / code review, - share reproducible projects.</p>
-<p>We’ll use feature branches and frequent commits with clear messages.</p>
-</section>
-<section id="zotero-connector" class="level3" data-number="A.2.5">
-<h3 data-number="A.2.5" class="anchored" data-anchor-id="zotero-connector"><span class="header-section-number">A.2.5</span> Zotero (+ Connector)</h3>
+<section id="zotero-connector" class="level3" data-number="A.2.3">
+<h3 data-number="A.2.3" class="anchored" data-anchor-id="zotero-connector"><span class="header-section-number">A.2.3</span> Zotero (+ Connector)</h3>
 <p>Your <strong>second brain for papers</strong>. We’ll use Zotero to: - collect readings and PDFs, - <strong>annotate</strong> (highlights/notes), - export citations to Quarto, - keep a <strong>reading audit trail</strong> (see the Reading appendix).</p>
 </section>
-<section id="qgis" class="level3" data-number="A.2.6">
-<h3 data-number="A.2.6" class="anchored" data-anchor-id="qgis"><span class="header-section-number">A.2.6</span> QGIS</h3>
+<section id="qgis" class="level3" data-number="A.2.4">
+<h3 data-number="A.2.4" class="anchored" data-anchor-id="qgis"><span class="header-section-number">A.2.4</span> QGIS</h3>
 <p>We’ll use QGIS for quick exploratory mapping, geoprocessing, and cross-checking R outputs. If you’re new to GIS, QGIS gives you a visual entry point that complements R’s scripted workflows.</p>
 </section>
-<section id="large-language-models-llms" class="level3" data-number="A.2.7">
-<h3 data-number="A.2.7" class="anchored" data-anchor-id="large-language-models-llms"><span class="header-section-number">A.2.7</span> Large Language Models (LLMs)</h3>
+<section id="large-language-models-llms" class="level3" data-number="A.2.5">
+<h3 data-number="A.2.5" class="anchored" data-anchor-id="large-language-models-llms"><span class="header-section-number">A.2.5</span> Large Language Models (LLMs)</h3>
 <p>You’ll learn to use an LLM as a <strong>reading companion, coding assistant, and writing aid</strong>. We’ll practice <strong>effective prompting</strong> and <strong>documentation of AI use</strong> (see Writing &amp; AI and Prompt Engineering appendices). Free tiers are sufficient.</p>
-<hr>
 </section>
 </section>
-<section id="accounts-configuration-1530-min" class="level2" data-number="A.3">
-<h2 data-number="A.3" class="anchored" data-anchor-id="accounts-configuration-1530-min"><span class="header-section-number">A.3</span> Accounts &amp; configuration (15–30 min)</h2>
-<ol type="1">
-<li><p><strong>GitHub:</strong> create an account and set your name/email in Git:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Your Name"</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email you@umn.edu</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p><strong>Quarto + RStudio:</strong> ensure RStudio detects Quarto (<code>Help → About</code> or <code>quarto --version</code>).</p></li>
-<li><p><strong>Zotero:</strong> enable <strong>Better BibTeX</strong> (optional) for stable citation keys; enable PDF annotation syncing.</p></li>
-<li><p><strong>QGIS:</strong> open once to finish setup; install plugins later as needed.</p></li>
-</ol>
-<hr>
-</section>
-<section id="how-well-use-this-stack" class="level2" data-number="A.4">
-<h2 data-number="A.4" class="anchored" data-anchor-id="how-well-use-this-stack"><span class="header-section-number">A.4</span> How we’ll use this stack</h2>
+<section id="how-well-use-this-stack" class="level2" data-number="A.3">
+<h2 data-number="A.3" class="anchored" data-anchor-id="how-well-use-this-stack"><span class="header-section-number">A.3</span> How we’ll use this stack</h2>
 <ul>
 <li><strong>Reproducible analysis</strong>: R + Quarto notebooks for labs &amp; projects.</li>
 <li><strong>Versioned projects</strong>: Git/GitHub for collaboration and accountability.</li>
-<li><strong>Reading workflow</strong>: Zotero to annotate; export notes; connect to Quarto citations.</li>
+<li><strong>Reading workflow</strong>: Zotero to annotate; export notes; connect to wiki citations.</li>
 <li><strong>Geospatial</strong>: QGIS for inspection; R for scripted pipelines.</li>
 <li><strong>AI assistance</strong>: LLMs for scaffolding ideas, debugging code, and generating <em>first-pass</em> outlines—<strong>with clear attribution/logs</strong>.</li>
 </ul>
