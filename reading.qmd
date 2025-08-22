@@ -1,11 +1,8 @@
----
-title: "How We Read (and Prove It)"
-description: "Expectations for slow, deliberate reading, annotation, and your audit trail."
----
+# On Reading and Learning (Slowly)
 
 ## Why slow reading?
 
-Rushing through technical material is a great way to *feel* informed and stay confused. We’ll practice **deliberate** reading: making the author’s argument visible, mapping terms, checking examples, and capturing questions.
+Rushing through technical material is a great way to *feel* informed and stay confused. We’ll practice **deliberate** reading: making the author’s argument visible, mapping terms, exploring connections, checking examples, and capturing novel questions.
 
 ## Two anchors
 
@@ -13,44 +10,28 @@ Rushing through technical material is a great way to *feel* informed and stay co
    Key moves we’ll use:
    - **Inspectional reading** (skim to map the terrain; glossary, headings, figures).  
    - **Analytical reading** (distill the thesis; outline; define terms; test with examples).  
-   - **Syntopical reading** (compare multiple sources on the same idea).
+   - **Syntopical reading** (compare and synthesize multiple sources on the same idea).
 
-2. **Andy Matuschak’s practice (study session with Dwarkesh Patel).**  
+2. [**Andy Matuschak’s learning practice (study session with Dwarkesh Patel).**](https://www.youtube.com/watch?v=OFuu4pesKf0)  
    Techniques we’ll borrow:
    - Turn confusions into **explicit questions** (even before you know the answer).
    - Build **retrieval prompts** while you read (spaced repetition), not after.
-   - Periodically **recite back** the argument in your own words to surface gaps.  
+   - Periodically **recite back** the argument in your own words to find gaps in understanding.  
    *(See video link in References.)*
 
 ## Your reading audit trail (what you show)
 
 Every assigned reading yields a **short artifact** you’ll submit with labs:
 
-- **Zotero annotations**: highlights + marginal notes (exported or shared in a Zotero group).  
-- **Outline** (bulleted): the section’s claim, evidence, definitions, and at least **3 questions** you generated.  
+- **Zotero annotations**: highlights + marginal notes (exported).  
+- **Outline** (bulleted): the section’s major declarative statements, evidence, definitions, and at least **3 questions** you generated.  
 - **Concept map** (optional): terms and relationships.  
 - **Two retrieval prompts** (Q→A pairs) you could review later.
 
 > **Acceptable formats:**  
 > - PDF with visible annotations, **or**  
 > - Markdown export (Zotero → Notes → Copy as Markdown), **or**  
-> - Screenshot series (if reading on paper) plus typed notes.
-
-### Template (paste into your notes)
-
-```
-Reading: <citation>
-Thesis (1–2 sentences):
-Key definitions:
-Evidence/examples:
-I was confused by:
-Connections to previous material:
-2 retrieval prompts:
-  - Q:
-    A:
-  - Q:
-    A:
-```
+> - Screenshot or picture series (if reading on paper) plus typed notes.
 
 ## How AI fits into reading
 

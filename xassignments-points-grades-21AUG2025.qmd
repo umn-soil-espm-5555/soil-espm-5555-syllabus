@@ -1,10 +1,10 @@
 # Assignments, Points, and Grading {#sec-assignments}
 
-## Activities and Assignments (512 points)[^assignments-points-grades-1]
+## Activities and Assignments (486 points)[^assignments-points-grades-1]
 
 In this class we emphasize *process* over *product* - and because this is a 5000-level course which encourages use of all available resources, I will expect you to learn through your own reading, writing, and experience in addition to materials from lecture and class activities. In other words, lecture in this class is not designed to spoon-feed you everything you need to know - instead lecture will be a place to construct some basic knowledge scaffolds and ask questions in the process. We will use the [course textbook @sec-textbook] as a basic scaffold for most of the information but will also be building our own wiki-style textbook as we go throughout the semester. 
 
-The activities and assignments in this class are designed around several organizing principles:
+The activities and assignments in this class are designed around a few organizing principles:
 
 - We will strive for deep integration of theory, measurement and application.
 - I will ask you to stretch your comfort zones and challenge you to grow.
@@ -14,14 +14,14 @@ The activities and assignments in this class are designed around several organiz
 - Although there will be work you will need to do on your own time, we will also provide the time and space for in-class work on most assignments.
 - Weekly practice and group collaboration is very important!
 
-**Weekly Reading Annotations and Wiki Contributions (56 points, 11% of your grade)**
+**Weekly Reading Annotations and Wiki Contributions, and Lecture Quizzes (56 points, 13% of your grade)**
 
 Each week, you will be asked to complete required readings, largely from Vepraskas and Craft, 2016. To encourage [slow reading @sec-reading] I will ask that you provide an *active reading audit trail* in the form of annotations and marginalia (either physical or digital). You will turn this in on Canvas each week. Additionally, each week you will be asked to contribute a minimum of 5 researched citations and 3 pieces of content (either full pages or sections) to our class wiki, which you will be asked to summarize using a [wiki-contribution log](https://docs.google.com/spreadsheets/d/1gRmGtMAoqWovaImaEfK-w8DJwKZDGL7ErcGff5PhSyI/edit?usp=sharing). Your reading annotations and wiki-contributions will be due on Friday of each week. (14 Reading Audits x 2 points + 14 wiki contributions x 2 points = 56 points).
 
-**Lecture Reflections (56 points, 11% of your grade)**
-In every lecture, you will be given a sheet with questions or reflection prompts. These will be completed during lecture. If you miss a lecture, it is your responsibility to complete the lecture reflection for points on your own. (28 reflections x 2 points = 56 points).
+**Lecture Reflections (86 points, 13% of your grade)**
+Finally, there will be short quizzes in lecture each week. These will typically be given on Wednesday, but can be taken the following Monday for credit in the case of an absence. These are learning assessments meant to understand how well concepts are being absorbed and understood in the class.  These will be graded for completion, not accuracy (14 Reading Audits x 2 points + 14 wiki contributions x 2 points + 15 quizzes x 2 points = 86 points).
 
-**Field Trip Reports (45 points, 9% of your grade)**
+**Field Trip Reports (45 points, 10% of your grade)**
 
 You will be required to write a brief report for three of the four field sessions.  More specific details will be given before each field session.  You will be working in groups on the field sessions and each group will turn in a single report.  It should be well-written, clear and concise and follow standard format for soil profile descriptions that will be provided. (3 reports x 15 points = 45 points).
 
@@ -49,35 +49,45 @@ You will be provided with an area that contains significant hydric soils and wil
 
 You will select a wetland type and location of interest to you and produce a 2 page technical summary of the soils, hydrology and vegetation of the wetland system. **Independent work and turn in online.** (1 assignment x 15 points = 15 points).
 
-**Group Hydric Soil Delineation Project (150 points, 30% of your grade)**
+**Group Hydric Soil Delineation Project (150 points, 33% of your grade)**
 
 Your group (3-4 students) will be assigned a parcel of Rice Creek North Regional Trail Corridor land located to the north of the Twin Cities Army Ammunition Plant in Shoreview.  Your task will be to delineate all areas of hydric soils within your parcel of approximately 40 acres.  Your group will flag the boundary in some sections (that I will field check); prepare a map of hydric soils; descriptions of upland, transitional, and hydric soils; and compile a comprehensive report for the site.  Final projects will be due on **Monday, December 8**.  We will provide field equipment for this project and be available on certain dates to answer questions in the field.  Your group will compile a single report including background information, soil profile data, landscape descriptions, general vegetation, presumed hydrology, and a map of the hydric soil boundary for your assigned parcel of land.  You will use QGIS or ArcGIS to assist in the preparation of your final project and you will submit your project in an electronic pdf file.  More details for the report will be provided in the laboratory session. (1 assignment x 15 points = 15 points).
 
-**Midterm Exam (50 points, 10% of your grade)**
+**Midterm Exam (50 points, 11% of your grade)**
 
-The midterm exam will be given in-person in Room 365 Borlaug Hall. More information will be provided prior to the exam. (1 midterm exams x 50 points = 50 points).
+The midterm exam will be given in-person in Room 365 Borlaug Hall. If you have any questions regarding how your exam was graded, please make an appointment to see me or write down your question and return it to me with your original exam within one week after the exams are returned.  Final course grades will be based on +/- system and adhere to the University Uniform Grading Standards. (2 midterm exams x 50 points = 100 points).
 
 **Small Group Activity/In-Class Wetland Assessment Proficiency (15 points, 3% of your grade)**
 
-In this small group activity and proficiency assessment, you will be split into groups and assigned a location during our lab session and produce an initial technical report on the location by utilizing publicly available resources. Your technical report will be due by the end of the class session. (1 small group activity exam x 50 points = 50 points).
+In this small group activity and proficiency assessment, you will be assigned a location during our lab session and produce an initial technical report on the location by utilizing publicly available resources. Your technical report will be due by the end of the class session. (1 small group activity exam x 50 points = 50 points).
 
-**Final Comprehensive Exam (50 points, 10% of your grade)**
+**Final Comprehensive Exam (50 points, 11% of your grade)**
 
 The final exam will be comprehensive. (1 final exam x 50 points = 50 points).
 
-## Grade Drops and Adjustments Prior to Final Grade Calculation:
+## Grading
 
-You may drop the lowest of each of the following prior to the calculation of final grades:
+Assignments won't be given points directly, but rather will be assigned a categorical assessment (according to a rubric specific to each assignment). These categorical assessments will be converted into points as follows:
 
-- 2 Weekly Reading Annotations
-- 2 Lecture Reflections
-- 1 Assignment
+E (Exemplary Effort) = 5
+S (Strong Effort) = 4
+D (Developing Effort) = 3
+N (Needs More Effort) = 2
+Z (Zero Effort) = 1
 
-Dropped scores will *NOT* be allowed for the following activities:
+These points are what will show up in your Canvas grade book for each assignment. Assignments are then weighted according to the learning assessment category they are assigned to as follows:
 
-- Exams (including in-class group wetland assessment proficiency).
-- Field Trip Reports.
-- Group Hydric Soil Delineation Project
+*Conceptual Understanding*: Midterm Exam, Final Exam
+
+*Field and Lab Skills*: Field Trip Reports (x3), Redox Vial Project
+
+*Data Interpretation and Analysis*: Soil Hydrology Exercise, Wetland Assessment Exercise, Hydric Soils Exercise
+
+*Creativity and Communication*: Wetland Case Study, Biochemistry Exercise
+
+*Engagement and Growth* : Reading Annotations, Wiki Contributions
+
+*Group Collaboration and Contribution* (25%): Group Hydric Soil Delineation Project, In-Class Wetland Assessment
 
 ### Final Grades
 
@@ -121,16 +131,15 @@ Here is how the course conforms:
 
 | **Activity**     | **Number** | **Hours**         |
 |------------------|------------|-------------------|
-| Lectures\*       | 27      | 27 x 0.84 = 23 hours |
-| Assignments\    | 6         | 6 x 3 = 18 hours |
-| Lab/Field Sessions\*           | 8         | 8 x 3 = 24 hours |
-| Field Trip Reports\           | 3         | 3 x 3 = 9 hours |
-| Hydric Soil Delin. Proj.  | 1          | 1 x 25 = 25 hours   |
-| Weekly Reading Annotations & Wiki | 14 | 14 x 2 = 28 hours |
-| Midterm Exam | 1         | 1 x 2 = 2 hours |
-| Small Group Exam | 1         | 1 x 3 = 3 hours |
-| Final Exam           | 1          | 1 x 3 = 3 hours |
-|                  | IN CLASS\* | 47 hours          |
+| Lectures\*       | 28         | 28 x 0.84 = 24 hours |
+| Assignments\*    | 6         | 6 x 5 = 30 hours |
+| Lab/Field Sessions\*           | 7         | 7 x 3 = 21 hours |
+| Field Trip Reports\*           | 3         | 3 x 3 = 9 hours |
+| Hydric Soil Delin. Proj.  | 1          | 1 x 34 = 34 hours   |
+| Midterm Exam | 1         | 1 x 5 = 5 hours |
+| Small Group Exam | 1         | 1 x 5 = 5 hours |
+| Final Exam           | 1          | 1 x 8 = 8 hours |
+|                  | IN CLASS\* | 45 hours          |
 |                  | TOTAL\    | 135 hours         |
 
 

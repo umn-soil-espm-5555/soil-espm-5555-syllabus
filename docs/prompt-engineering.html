@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Simple, reliable patterns for getting useful help from LLMs in this course.">
 
 <title>Wetland Soils (SOIL/ESPM 5555) Syllabus - Fall 2025 - Appendix B — Prompt Engineering (Student Guide)</title>
 <style>
@@ -128,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./field-sessions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Field Sessions and Group Work in the Field</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Field Sessions</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -197,13 +196,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./reading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">How We Read (and Prove It)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">On Reading and Learning (Slowly)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./writing-ai.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Writing in the Age of AI</span></span></a>
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">On Writing in the Age of AI</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -224,20 +223,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#foundations-use-these-every-time" id="toc-foundations-use-these-every-time" class="nav-link active" data-scroll-target="#foundations-use-these-every-time"><span class="header-section-number">B.1</span> Foundations (use these every time)</a></li>
-  <li><a href="#agentic-toggles-when-needed" id="toc-agentic-toggles-when-needed" class="nav-link" data-scroll-target="#agentic-toggles-when-needed"><span class="header-section-number">B.2</span> Agentic “toggles” (when needed)</a></li>
-  <li><a href="#prompt-scaffolds-you-can-copy" id="toc-prompt-scaffolds-you-can-copy" class="nav-link" data-scroll-target="#prompt-scaffolds-you-can-copy"><span class="header-section-number">B.3</span> Prompt scaffolds you can copy</a>
+  <li><a href="#foundations" id="toc-foundations" class="nav-link active" data-scroll-target="#foundations">Foundations</a></li>
+  <li><a href="#agentic-toggles-when-needed" id="toc-agentic-toggles-when-needed" class="nav-link" data-scroll-target="#agentic-toggles-when-needed">Agentic “toggles” (when needed)</a></li>
+  <li><a href="#prompt-scaffolds-you-can-copy" id="toc-prompt-scaffolds-you-can-copy" class="nav-link" data-scroll-target="#prompt-scaffolds-you-can-copy">Prompt scaffolds you can copy</a>
   <ul class="collapse">
-  <li><a href="#a.-reading-retrieval-prompts" id="toc-a.-reading-retrieval-prompts" class="nav-link" data-scroll-target="#a.-reading-retrieval-prompts"><span class="header-section-number">B.3.1</span> A. Reading → retrieval prompts</a></li>
-  <li><a href="#b.-code-review-for-reproducibility" id="toc-b.-code-review-for-reproducibility" class="nav-link" data-scroll-target="#b.-code-review-for-reproducibility"><span class="header-section-number">B.3.2</span> B. Code review for reproducibility</a></li>
-  <li><a href="#c.-outline-critique-scientific-report" id="toc-c.-outline-critique-scientific-report" class="nav-link" data-scroll-target="#c.-outline-critique-scientific-report"><span class="header-section-number">B.3.3</span> C. Outline critique (scientific report)</a></li>
-  <li><a href="#d.-geospatial-analysis-guardrails" id="toc-d.-geospatial-analysis-guardrails" class="nav-link" data-scroll-target="#d.-geospatial-analysis-guardrails"><span class="header-section-number">B.3.4</span> D. Geospatial analysis guardrails</a></li>
+  <li><a href="#a.-reading-retrieval-prompts" id="toc-a.-reading-retrieval-prompts" class="nav-link" data-scroll-target="#a.-reading-retrieval-prompts">A. Reading → retrieval prompts</a></li>
+  <li><a href="#b.-code-review-for-reproducibility" id="toc-b.-code-review-for-reproducibility" class="nav-link" data-scroll-target="#b.-code-review-for-reproducibility">B. Code review for reproducibility</a></li>
+  <li><a href="#c.-outline-critique-scientific-report" id="toc-c.-outline-critique-scientific-report" class="nav-link" data-scroll-target="#c.-outline-critique-scientific-report">C. Outline critique (scientific report)</a></li>
+  <li><a href="#d.-geospatial-analysis-guardrails" id="toc-d.-geospatial-analysis-guardrails" class="nav-link" data-scroll-target="#d.-geospatial-analysis-guardrails">D. Geospatial analysis guardrails</a></li>
   </ul></li>
-  <li><a href="#verification-beats-vibes" id="toc-verification-beats-vibes" class="nav-link" data-scroll-target="#verification-beats-vibes"><span class="header-section-number">B.4</span> Verification beats vibes</a></li>
-  <li><a href="#document-your-use" id="toc-document-your-use" class="nav-link" data-scroll-target="#document-your-use"><span class="header-section-number">B.5</span> Document your use</a></li>
-  <li><a href="#where-these-patterns-come-from" id="toc-where-these-patterns-come-from" class="nav-link" data-scroll-target="#where-these-patterns-come-from"><span class="header-section-number">B.6</span> Where these patterns come from</a>
+  <li><a href="#verification-beats-vibes" id="toc-verification-beats-vibes" class="nav-link" data-scroll-target="#verification-beats-vibes">Verification beats vibes</a></li>
+  <li><a href="#document-your-use" id="toc-document-your-use" class="nav-link" data-scroll-target="#document-your-use">Document your use</a>
   <ul class="collapse">
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">B.6.1</span> References</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -264,11 +262,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p><strong>Goal:</strong> Get <em>useful</em>, <em>verifiable</em> help—without outsourcing your learning.</p>
-</blockquote>
-<section id="foundations-use-these-every-time" class="level2" data-number="B.1">
-<h2 data-number="B.1" class="anchored" data-anchor-id="foundations-use-these-every-time"><span class="header-section-number">B.1</span> Foundations (use these every time)</h2>
+<p>Prompt engineering is an art and you can get better at it by relying on simple patterns for getting useful help from LLMs. The goal is to get <em>useful</em>, <em>verifiable</em> help—without outsourcing your learning.</p>
+<section id="foundations" class="level2">
+<h2 class="anchored" data-anchor-id="foundations">Foundations</h2>
 <ol type="1">
 <li><strong>Be explicit.</strong> State the goal, audience, tone, and <strong>output contract</strong> (bullets? code? a table with specific columns?).<br>
 </li>
@@ -289,18 +285,18 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Prefer “show, then tell.”</strong> Ask for the result <strong>and</strong> a short verification checklist you can run.</li>
 </ol>
 </section>
-<section id="agentic-toggles-when-needed" class="level2" data-number="B.2">
-<h2 data-number="B.2" class="anchored" data-anchor-id="agentic-toggles-when-needed"><span class="header-section-number">B.2</span> Agentic “toggles” (when needed)</h2>
+<section id="agentic-toggles-when-needed" class="level2">
+<h2 class="anchored" data-anchor-id="agentic-toggles-when-needed">Agentic “toggles” (when needed)</h2>
 <ul>
 <li><strong>Reasoning effort:</strong> If the model offers options (fast/medium/high), pick higher effort for complex tasks; otherwise add “Take the time to check edge cases and failure modes.”<br>
 </li>
 <li><strong>Parallelization:</strong> For independent subtasks (e.g., summarize 3 papers), allow parallel work; forbid it when steps depend on each other.</li>
 </ul>
 </section>
-<section id="prompt-scaffolds-you-can-copy" class="level2" data-number="B.3">
-<h2 data-number="B.3" class="anchored" data-anchor-id="prompt-scaffolds-you-can-copy"><span class="header-section-number">B.3</span> Prompt scaffolds you can copy</h2>
-<section id="a.-reading-retrieval-prompts" class="level3" data-number="B.3.1">
-<h3 data-number="B.3.1" class="anchored" data-anchor-id="a.-reading-retrieval-prompts"><span class="header-section-number">B.3.1</span> A. Reading → retrieval prompts</h3>
+<section id="prompt-scaffolds-you-can-copy" class="level2">
+<h2 class="anchored" data-anchor-id="prompt-scaffolds-you-can-copy">Prompt scaffolds you can copy</h2>
+<section id="a.-reading-retrieval-prompts" class="level3">
+<h3 class="anchored" data-anchor-id="a.-reading-retrieval-prompts">A. Reading → retrieval prompts</h3>
 <pre><code>You are helping me study. From the excerpt below, write 5 Q→A pairs that test:
 - definitions,
 - claims + evidence,
@@ -309,16 +305,16 @@ Each Q should be specific and answerable from the text. Keep answers ≤ 2 sente
 
 [PASTE EXCERPT]</code></pre>
 </section>
-<section id="b.-code-review-for-reproducibility" class="level3" data-number="B.3.2">
-<h3 data-number="B.3.2" class="anchored" data-anchor-id="b.-code-review-for-reproducibility"><span class="header-section-number">B.3.2</span> B. Code review for reproducibility</h3>
+<section id="b.-code-review-for-reproducibility" class="level3">
+<h3 class="anchored" data-anchor-id="b.-code-review-for-reproducibility">B. Code review for reproducibility</h3>
 <pre><code>Role: fussy lab TA.
 Task: review my R script for reproducibility problems.
 Output: a checklist with concrete fixes. Include file paths, seeds, package versions.
 
 [PASTE CODE]</code></pre>
 </section>
-<section id="c.-outline-critique-scientific-report" class="level3" data-number="B.3.3">
-<h3 data-number="B.3.3" class="anchored" data-anchor-id="c.-outline-critique-scientific-report"><span class="header-section-number">B.3.3</span> C. Outline critique (scientific report)</h3>
+<section id="c.-outline-critique-scientific-report" class="level3">
+<h3 class="anchored" data-anchor-id="c.-outline-critique-scientific-report">C. Outline critique (scientific report)</h3>
 <pre><code>Audience: soil science peers.
 Goal: critique my outline for clarity &amp; evidence.
 1) List missing background or definitions.
@@ -327,8 +323,8 @@ Goal: critique my outline for clarity &amp; evidence.
 
 [PASTE OUTLINE]</code></pre>
 </section>
-<section id="d.-geospatial-analysis-guardrails" class="level3" data-number="B.3.4">
-<h3 data-number="B.3.4" class="anchored" data-anchor-id="d.-geospatial-analysis-guardrails"><span class="header-section-number">B.3.4</span> D. Geospatial analysis guardrails</h3>
+<section id="d.-geospatial-analysis-guardrails" class="level3">
+<h3 class="anchored" data-anchor-id="d.-geospatial-analysis-guardrails">D. Geospatial analysis guardrails</h3>
 <pre><code>You are a geospatial QA buddy.
 Given my analysis plan, identify:
 - CRS pitfalls,
@@ -340,25 +336,21 @@ Return a stepwise preflight checklist.
 [PASTE PLAN]</code></pre>
 </section>
 </section>
-<section id="verification-beats-vibes" class="level2" data-number="B.4">
-<h2 data-number="B.4" class="anchored" data-anchor-id="verification-beats-vibes"><span class="header-section-number">B.4</span> Verification beats vibes</h2>
+<section id="verification-beats-vibes" class="level2">
+<h2 class="anchored" data-anchor-id="verification-beats-vibes">Verification beats vibes</h2>
 <ul>
 <li><strong>Numerical outputs</strong>: replicate in R; show code &amp; seeds.<br>
 </li>
-<li><strong>Citations</strong>: follow links and read them; don’t accept fabricated references.<br>
+<li><strong>Citations</strong>: follow links and read them; don’t accept un-verified references.<br>
 </li>
 <li><strong>Claims</strong>: compare against course texts or primary sources.</li>
 </ul>
 </section>
-<section id="document-your-use" class="level2" data-number="B.5">
-<h2 data-number="B.5" class="anchored" data-anchor-id="document-your-use"><span class="header-section-number">B.5</span> Document your use</h2>
-<p>Every assignment includes an <strong>AI Use Log</strong> (see Writing &amp; AI). Prompts &amp; models matter: different instructions can change outcomes.</p>
-</section>
-<section id="where-these-patterns-come-from" class="level2" data-number="B.6">
-<h2 data-number="B.6" class="anchored" data-anchor-id="where-these-patterns-come-from"><span class="header-section-number">B.6</span> Where these patterns come from</h2>
-<p>They reflect what practitioners report works best for steerable models today, emphasizing <strong>clear instructions, structure, brief rationales, and iterative self-checks</strong>.</p>
-<section id="references" class="level3" data-number="B.6.1">
-<h3 data-number="B.6.1" class="anchored" data-anchor-id="references"><span class="header-section-number">B.6.1</span> References</h3>
+<section id="document-your-use" class="level2">
+<h2 class="anchored" data-anchor-id="document-your-use">Document your use</h2>
+<p>Every assignment submission should include an <strong>AI Use Log</strong> (see Writing &amp; AI). Prompts &amp; models matter: different instructions can change outcomes.</p>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
 <ul>
 <li><em>AI Daily Brief</em>: “11 GPT-5 prompting techniques…” (transcript provided in class).</li>
 </ul>

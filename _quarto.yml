@@ -42,6 +42,8 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    number-sections: true
+    number-depth: 1
   pdf:
     documentclass: scrreprt
 

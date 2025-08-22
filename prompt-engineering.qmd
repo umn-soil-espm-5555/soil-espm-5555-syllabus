@@ -1,11 +1,8 @@
----
-title: "Prompt Engineering (Student Guide)"
-description: "Simple, reliable patterns for getting useful help from LLMs in this course."
----
+# Prompt Engineering (Student Guide)
 
-> **Goal:** Get *useful*, *verifiable* help—without outsourcing your learning.
+Prompt engineering is an art and you can get better at it by relying on simple patterns for getting useful help from LLMs. The goal is to get *useful*, *verifiable* help—without outsourcing your learning.
 
-## Foundations (use these every time)
+## Foundations 
 
 1. **Be explicit.** State the goal, audience, tone, and **output contract** (bullets? code? a table with specific columns?).  
 2. **Structure the task.** Give headings or a checklist. The format matters more than fancy wording.  
@@ -71,16 +68,12 @@ Return a stepwise preflight checklist.
 ## Verification beats vibes
 
 - **Numerical outputs**: replicate in R; show code & seeds.  
-- **Citations**: follow links and read them; don’t accept fabricated references.  
+- **Citations**: follow links and read them; don’t accept un-verified references.  
 - **Claims**: compare against course texts or primary sources.
 
 ## Document your use
 
-Every assignment includes an **AI Use Log** (see Writing & AI). Prompts & models matter: different instructions can change outcomes.
-
-## Where these patterns come from
-
-They reflect what practitioners report works best for steerable models today, emphasizing **clear instructions, structure, brief rationales, and iterative self-checks**.
+Every assignment submission should include an **AI Use Log** (see Writing & AI). Prompts & models matter: different instructions can change outcomes.
 
 ### References
 - *AI Daily Brief*: “11 GPT-5 prompting techniques…” (transcript provided in class).

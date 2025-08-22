@@ -1,7 +1,4 @@
----
-title: "Writing in the Age of AI"
-description: "Expectations for drafting, revising, and documenting AI use in your writing."
----
+# On Writing in the Age of AI
 
 ## Writing as thinking and learning
 
@@ -15,9 +12,15 @@ Good writing **clarifies thought**. Writing is difficult because it forces us to
 
 > Our separate **AI Policy** covers boundaries (originality, attribution, and prohibited uses). This chapter focuses on practice.
 
-## Required AI use log (attach with submissions)
+## AI: tools vs. foundations
 
-Include a brief section at the end of your Quarto document:
+- **Foundation models** (e.g., general LLMs) learn broad patterns from massive data; **apps** (chatbots, copilots) wrap those models with UX and guardrails.  
+- You should **know the difference** well enough to evaluate reliability, bias, and when to escalate to a human expert.
+- We will use AI tools to **accelerate** thinking and learning—but not to *replace* reading, reasoning, or evidence.
+
+## Required AI use log (attach with any assignment submissions where AI was used)
+
+Include a brief section at the end of your assignment document as follows:
 
 ```
 AI Use Log
@@ -46,7 +49,7 @@ AI Use Log
 
 Much of modern writing with AI is **asking better questions**. You’ll get better results by being explicit about **tone, audience, structure, constraints**, and **evaluation criteria** (see the Prompt Engineering appendix).
 
-## Citing influences
+## Citing AI influences
 
 When AI meaningfully shapes a paragraph or figure, treat it like any other tool or collaborator: **acknowledge it** in the AI Use Log and ensure all **sources are properly cited**.
 

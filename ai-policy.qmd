@@ -13,7 +13,7 @@
 
 ## Definition and Examples of Generative AI: 
 
-Generative AI refers to computer systems and programs that can generate new content such as text, images, audio, video, and computer code. Examples include language models like ChatGPT, GPT-3, Claude, and Bing Chat for text; DALL-E, Midjourney, and Stable Diffusion for images; and GitHub Copilot for code. These tools create new outputs based on patterns learned from analyzing vast datasets.
+Generative AI refers to computer systems and programs that can generate new content such as text, images, audio, video, and computer code. Examples include language models like GPT-5, Claude, and Google Gemini for text; and DALL-E, Midjourney, and Stable Diffusion for images. These tools create new outputs based on patterns learned from analyzing vast datasets.
 
 ## Caution Regarding Accuracy and Bias: 
 
@@ -74,8 +74,8 @@ Guidelines and permissions surrounding leveraging generative AI differ substanti
 
 ## Tradeoffs of AI Assistance: 
 
-Generative AI carries both opportunities and risks within academic environments. Potential benefits include enhanced creativity, productivity, accessibility, and multimodal learning. However, detriments may also ensue surrounding originality, effort, skill-building, critical thinking, ethics and misconduct. Instructors aim to maximize upsides while mitigating downsides of AI through tailored course policies. Students share in this responsibility.  
+Generative AI carries both opportunities and risks within academic environments. Potential benefits include enhanced creativity, productivity, accessibility, and multimodal learning. However, detriments may also ensue surrounding originality, effort, skill-building, critical thinking, ethics and misconduct. Instructors should aim to maximize upsides while mitigating downsides of AI through tailored course policies. Students share in this responsibility.  
 
 ## Policy Evolution Over Time: 
 
-Perspectives and best practices surrounding AI in education continue rapidly coalescing. Generative models themselves also keep significantly advancing. Therefore, institutional and course policies remain dynamic works-in-progress, subject to ongoing revisions as contextual understanding improves. Maintaining flexibility helps classrooms collectively harness AI‚Äôs immense potential as this technological age unfolds.
+Perspectives and best practices surrounding AI in education continue rapidly coalescing. Generative models themselves also keep significantly advancing. Therefore, institutional and course policies remain dynamic works-in-progress, subject to ongoing revisions as contextual understanding improves. Maintaining flexibility helps classrooms collectively harness AI potential as these advances continue to unfold.
